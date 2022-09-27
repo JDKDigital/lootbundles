@@ -1,0 +1,16 @@
+1.19.2-0.1.0.2
+
+-- Added minLootAmount config for more control of how many stacks spawn
+-- Re-rolls item if an invalid one is picked
+-- Added some default items to blacklist
+
+
+1.19.2-0.1.0.1
+
+-- Added loot fragment and bundles to entity drops
+-- Loot bundles stack
+
+
+1.19.2-0.1.0.0
+
+-- Initial release

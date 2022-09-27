@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "lootbundles:fragment",
+    "lootbundles:loot_bundle",
+    "minecraft:air",
+    "minecraft:command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:command_block_minecart",
+    "minecraft:debug_stick",
+    "minecraft:barrier",
+    "minecraft:jigsaw",
+    "minecraft:structure_block",
+    "minecraft:structure_void",
+    "minecraft:spawner",
+    "minecraft:light",
+    "minecraft:filled_map",
+    "minecraft:bedrock",
+    "minecraft:potion",
+    "minecraft:splash_potion",
+    "minecraft:lingering_potion",
+    "minecraft:enchanted_book",
+    "minecraft:knowledge_book",
+    "minecraft:written_book"
+  ]
+}

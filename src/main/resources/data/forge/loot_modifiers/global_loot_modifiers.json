@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "entries": [
+        "lootbundles:chest_loot_fragment",
+        "lootbundles:entity_loot_fragment",
+        "lootbundles:entity_loot_bundle"
+    ]
+}
