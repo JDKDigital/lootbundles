@@ -3,12 +3,7 @@ package cy.jdkdigital.lootbundles;
 import com.mojang.logging.LogUtils;
 import cy.jdkdigital.lootbundles.init.ModItems;
 import cy.jdkdigital.lootbundles.init.ModLootModifiers;
-import cy.jdkdigital.lootbundles.init.ModTags;
-import net.minecraft.world.entity.item.ItemEntity;
-import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.entity.living.LivingDeathEvent;
-import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -24,7 +19,7 @@ import org.slf4j.Logger;
 public class LootBundles
 {
     public static final String MODID = "lootbundles";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public LootBundles()
     {
@@ -39,8 +34,7 @@ public class LootBundles
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, LootBundleConfig.SERVER_CONFIG);
-        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, LootBundleConfig.CLIENT_CONFIG);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, LootBundleConfig.CONFIG);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

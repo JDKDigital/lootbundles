@@ -1,3 +1,16 @@
+1.19.2-0.1.0.4
+
+-- Anything found in the whitelist tag will be allowed even if it matches something on the exception list
+
+
+1.19.2-0.1.0.3
+
+-- Moved config to COMMON
+-- Added option to insert items into inventory instead of dropping them
+-- Fixed some items not matching disallowedItemNames
+-- Fixed minimum stack size being 0 at times
+
+
 1.19.2-0.1.0.2
 
 -- Added minLootAmount config for more control of how many stacks spawn

@@ -116,6 +116,8 @@ dependencies {
     runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
 
     implementation fg.deobf("curse.maven:everythingcopper-579545:3908968")
+    implementation fg.deobf("curse.maven:cucumber-272335:3971854")
+    implementation fg.deobf("curse.maven:mystical-agriculture-246640:3986874")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.

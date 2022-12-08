@@ -9,30 +9,18 @@ import java.util.List;
 @Mod.EventBusSubscriber
 public class LootBundleConfig
 {
-    private static final ForgeConfigSpec.Builder CLIENT_BUILDER = new ForgeConfigSpec.Builder();
-    private static final ForgeConfigSpec.Builder SERVER_BUILDER = new ForgeConfigSpec.Builder();
-    public static final ForgeConfigSpec CLIENT_CONFIG;
-    public static final Client CLIENT = new Client(CLIENT_BUILDER);
-    public static final ForgeConfigSpec SERVER_CONFIG;
-    public static final General SERVER = new General(SERVER_BUILDER);
+    private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
+    public static final ForgeConfigSpec CONFIG;
+    public static final General COMMON = new General(BUILDER);
 
     static {
-        CLIENT_CONFIG = CLIENT_BUILDER.build();
-        SERVER_CONFIG = SERVER_BUILDER.build();
-    }
-
-    public static class Client
-    {
-        public Client(ForgeConfigSpec.Builder builder) {
-            builder.push("Client");
-
-            builder.pop();
-        }
+        CONFIG = BUILDER.build();
     }
 
     public static class General
     {
         public final ForgeConfigSpec.BooleanValue whitelist;
+        public final ForgeConfigSpec.BooleanValue inventoryInsert;
         public final ForgeConfigSpec.IntValue maxStackSize;
         public final ForgeConfigSpec.IntValue minLootAmount;
         public final ForgeConfigSpec.IntValue maxLootAmount;
@@ -44,6 +32,10 @@ public class LootBundleConfig
             whitelist = builder
                     .comment("Use whitelist only")
                     .define("whitelist", false);
+
+            inventoryInsert = builder
+                    .comment("Insert into players inventory when possible instead of spewing all the items on the ground")
+                    .define("inventoryInsert", false);
 
             maxStackSize = builder
                     .comment("Stack size of dropped loot will be a random number between 0 and maxStackSize")
