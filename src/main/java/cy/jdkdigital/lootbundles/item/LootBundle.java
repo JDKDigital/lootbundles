@@ -3,6 +3,7 @@ package cy.jdkdigital.lootbundles.item;
 import cy.jdkdigital.lootbundles.LootBundleConfig;
 import cy.jdkdigital.lootbundles.init.ModTags;
 import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.stats.Stats;
@@ -11,6 +12,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
@@ -62,7 +64,7 @@ public class LootBundle extends Item
     private static ItemStack getRandomItem(RandomSource rand) {
         if (possibleItems.isEmpty()) {
             if (LootBundleConfig.COMMON.whitelist.get()) {
-                Registry.ITEM.getTagOrEmpty(ModTags.WHITELIST).forEach(itemHolder -> {
+                BuiltInRegistries.ITEM.getTagOrEmpty(ModTags.WHITELIST).forEach(itemHolder -> {
                     Item item = itemHolder.value();
                     if (ForgeRegistries.ITEMS.getKey(item) != null) {
                         if (isItemAllowed(item)) {
@@ -105,7 +107,7 @@ public class LootBundle extends Item
     }
 
     private static boolean isItemAllowed(Item item) {
-        if (!item.builtInRegistryHolder().is(ModTags.BLACKLIST) && !item.getCreativeTabs().isEmpty()) {
+        if (!item.builtInRegistryHolder().is(ModTags.BLACKLIST)) {
             if (!item.builtInRegistryHolder().is(ModTags.WHITELIST) && !LootBundleConfig.COMMON.disallowedItemNames.get().isEmpty()) {
                 for (String s: LootBundleConfig.COMMON.disallowedItemNames.get()) {
                     if (ForgeRegistries.ITEMS.getKey(item).toString().contains(s)) {

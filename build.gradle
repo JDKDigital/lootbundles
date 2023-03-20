@@ -13,7 +13,7 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
 minecraft {
-    mappings channel: 'official', version: '1.19.2'
+    mappings channel: 'official', version: '1.19.3'
 
     // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // Currently, this location cannot be changed from the default.
 
@@ -109,15 +109,15 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${mc_version}-${forgeversion}"
 
-    compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
-    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
-
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
-
-    implementation fg.deobf("curse.maven:everythingcopper-579545:3908968")
-    implementation fg.deobf("curse.maven:cucumber-272335:3971854")
-    implementation fg.deobf("curse.maven:mystical-agriculture-246640:3986874")
+//    compileOnly fg.deobf("mezz.jei:jei-${mc_version}-forge-api:${jei_version}")
+//    runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}")
+//
+//    compileOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}:api")
+//    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
+//
+//    implementation fg.deobf("curse.maven:everythingcopper-579545:3908968")
+//    implementation fg.deobf("curse.maven:cucumber-272335:3971854")
+//    implementation fg.deobf("curse.maven:mystical-agriculture-246640:3986874")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
