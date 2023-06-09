@@ -1,29 +1,34 @@
+1.19.2-0.1.0.5
+
+- Sneaking while opening loot bundles will open the entire stack
+
+
 1.19.2-0.1.0.4
 
--- Anything found in the whitelist tag will be allowed even if it matches something on the exception list
+- Anything found in the whitelist tag will be allowed even if it matches something on the exception list
 
 
 1.19.2-0.1.0.3
 
--- Moved config to COMMON
--- Added option to insert items into inventory instead of dropping them
--- Fixed some items not matching disallowedItemNames
--- Fixed minimum stack size being 0 at times
+- Moved config to COMMON
+- Added option to insert items into inventory instead of dropping them
+- Fixed some items not matching disallowedItemNames
+- Fixed minimum stack size being 0 at times
 
 
 1.19.2-0.1.0.2
 
--- Added minLootAmount config for more control of how many stacks spawn
--- Re-rolls item if an invalid one is picked
--- Added some default items to blacklist
+- Added minLootAmount config for more control of how many stacks spawn
+- Re-rolls item if an invalid one is picked
+- Added some default items to blacklist
 
 
 1.19.2-0.1.0.1
 
--- Added loot fragment and bundles to entity drops
--- Loot bundles stack
+- Added loot fragment and bundles to entity drops
+- Loot bundles stack
 
 
 1.19.2-0.1.0.0
 
--- Initial release
+- Initial release

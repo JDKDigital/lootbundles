@@ -124,12 +124,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "lootbundles",
-                "Specification-Vendor"    : "jdkdigital",
+                "Specification-Title"     : "Loot Bundles",
+                "Specification-Vendor"    : "Jdk Digital",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "jdkdigital",
+                "Implementation-Vendor"   : "Jdk Digital",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

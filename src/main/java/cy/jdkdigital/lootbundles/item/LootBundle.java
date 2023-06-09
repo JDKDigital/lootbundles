@@ -32,27 +32,38 @@ public class LootBundle extends Item
         if (!level.isClientSide()) {
             ItemStack itemStack = player.getItemInHand(hand);
 
-            List<ItemStack> items = new ArrayList<>();
-
-            // Generate loot and throw on the ground
-            int min = LootBundleConfig.COMMON.minLootAmount.get();
-            int max = LootBundleConfig.COMMON.maxLootAmount.get();
-            int count = min <= max ? level.random.nextInt(min, max + 1) : level.random.nextInt(max + 1);
-            int i = 0;
-            int u = 0;
-            while (i < count && u < 200) {
-                ItemStack randomStack = getRandomItem(level.random);
-                if (!randomStack.isEmpty()) {
-                    items.add(randomStack);
-                    i++;
-                }
-                u++;
+            int usedBundles = 1;
+            if (player.isShiftKeyDown()) {
+                usedBundles = itemStack.getCount();
             }
 
-            if (dropContents(items, player)) {
-                itemStack.shrink(1);
-                this.playDropContentsSound(player);
-                player.awardStat(Stats.ITEM_USED.get(this));
+            boolean hasUsedBundle = false;
+            for (int k = 0; k < usedBundles; k++) {
+                List<ItemStack> items = new ArrayList<>();
+
+                // Generate loot and throw on the ground
+                int min = LootBundleConfig.COMMON.minLootAmount.get();
+                int max = LootBundleConfig.COMMON.maxLootAmount.get();
+                int count = min <= max ? level.random.nextInt(min, max + 1) : level.random.nextInt(max + 1);
+                int i = 0;
+                int u = 0;
+                while (i < count && u < 200) {
+                    ItemStack randomStack = getRandomItem(level.random);
+                    if (!randomStack.isEmpty()) {
+                        items.add(randomStack);
+                        i++;
+                    }
+                    u++;
+                }
+
+                if (dropContents(items, player)) {
+                    itemStack.shrink(1);
+                    this.playDropContentsSound(player);
+                    player.awardStat(Stats.ITEM_USED.get(this));
+                    hasUsedBundle = true;
+                }
+            }
+            if (hasUsedBundle) {
                 return InteractionResultHolder.sidedSuccess(itemStack, level.isClientSide());
             }
         }
