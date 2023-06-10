@@ -4,7 +4,7 @@
       "condition": "minecraft:killed_by_player"
     },
     {
-      "condition": "minecraft:alternative",
+      "condition": "minecraft:any_of",
       "terms": [
         {
           "condition": "forge:loot_table_id",
@@ -25,6 +25,10 @@
         {
           "condition": "forge:loot_table_id",
           "loot_table_id": "minecraft:entities/blaze"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:entities/camel"
         },
         {
           "condition": "forge:loot_table_id",
@@ -140,11 +144,11 @@
         },
         {
           "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:entities/mule"
+          "loot_table_id": "minecraft:entities/mooshroom"
         },
         {
           "condition": "forge:loot_table_id",
-          "loot_table_id": "minecraft:entities/mooshroom"
+          "loot_table_id": "minecraft:entities/mule"
         },
         {
           "condition": "forge:loot_table_id",
@@ -221,6 +225,10 @@
         {
           "condition": "forge:loot_table_id",
           "loot_table_id": "minecraft:entities/slime"
+        },
+        {
+          "condition": "forge:loot_table_id",
+          "loot_table_id": "minecraft:entities/sniffer"
         },
         {
           "condition": "forge:loot_table_id",
@@ -318,6 +326,6 @@
     }
   ],
   "type": "lootbundles:loot_fragment",
-  "probability": 0.2,
+  "probability": 1.2,
   "maxCount": 4
 }

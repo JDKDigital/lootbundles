@@ -5,8 +5,9 @@ import cy.jdkdigital.lootbundles.init.ModItems;
 import cy.jdkdigital.lootbundles.init.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
@@ -23,8 +24,6 @@ public class LootBundles
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        modEventBus.addListener(this::tabs);
-
         ModItems.ITEMS.register(modEventBus);
         ModLootModifiers.LOOT_SERIALIZERS.register(modEventBus);
 
@@ -34,11 +33,15 @@ public class LootBundles
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, LootBundleConfig.CONFIG);
     }
 
-    private void tabs(final CreativeModeTabEvent.BuildContents event)
+    @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = MODID)
+    public static class EventHandler
     {
-        if (event.getTab().equals(CreativeModeTabs.TOOLS_AND_UTILITIES)) {
-            event.accept(ModItems.FRAGMENT.get());
-            event.accept(ModItems.LOOT_BUNDLE.get());
+        @SubscribeEvent
+        public static void buildContents(BuildCreativeModeTabContentsEvent event) {
+            if (event.getTabKey().equals(CreativeModeTabs.TOOLS_AND_UTILITIES)) {
+                event.accept(ModItems.FRAGMENT.get());
+                event.accept(ModItems.LOOT_BUNDLE.get());
+            }
         }
     }
 }

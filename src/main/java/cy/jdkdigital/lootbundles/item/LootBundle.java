@@ -114,7 +114,7 @@ public class LootBundle extends Item
     }
 
     private void playDropContentsSound(Entity entity) {
-        entity.playSound(SoundEvents.BUNDLE_DROP_CONTENTS, 0.8F, 0.8F + entity.getLevel().getRandom().nextFloat() * 0.4F);
+        entity.playSound(SoundEvents.BUNDLE_DROP_CONTENTS, 0.8F, 0.8F + entity.level().getRandom().nextFloat() * 0.4F);
     }
 
     private static boolean isItemAllowed(Item item) {

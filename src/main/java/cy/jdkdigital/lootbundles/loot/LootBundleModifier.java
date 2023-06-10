@@ -1,7 +1,6 @@
 package cy.jdkdigital.lootbundles.loot;
 
 import com.google.common.base.Supplier;
-import com.google.common.base.Suppliers;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import cy.jdkdigital.lootbundles.init.ModItems;
@@ -17,15 +16,14 @@ import javax.annotation.Nonnull;
 
 public class LootBundleModifier extends LootModifier
 {
-    public static final Supplier<Codec<LootBundleModifier>> CODEC = Suppliers.memoize(() ->
+    public static final Supplier<Codec<LootBundleModifier>> CODEC = () ->
         RecordCodecBuilder.create(inst ->
                 inst.group(
                     LOOT_CONDITIONS_CODEC.fieldOf("conditions").forGetter(lm -> lm.conditions),
                     Codec.FLOAT.fieldOf("probability").orElse(0f).forGetter((configuration) -> configuration.probability),
                     Codec.INT.fieldOf("maxCount").orElse(1).forGetter((configuration) -> configuration.maxCount)
                 )
-                .apply(inst, LootBundleModifier::new))
-    );
+                .apply(inst, LootBundleModifier::new));
 
     private final float probability;
     private final Integer maxCount;
