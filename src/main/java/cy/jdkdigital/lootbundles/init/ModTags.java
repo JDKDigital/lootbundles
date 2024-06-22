@@ -13,8 +13,8 @@ public class ModTags
 {
     public static Map<ResourceLocation, TagKey<Item>> itemTagCache = new HashMap<>();
 
-    public static final TagKey<Item> WHITELIST = getItemTag(new ResourceLocation(LootBundles.MODID, "whitelist"));
-    public static final TagKey<Item> BLACKLIST = getItemTag(new ResourceLocation(LootBundles.MODID, "blacklist"));
+    public static final TagKey<Item> WHITELIST = getItemTag(ResourceLocation.fromNamespaceAndPath(LootBundles.MODID, "whitelist"));
+    public static final TagKey<Item> BLACKLIST = getItemTag(ResourceLocation.fromNamespaceAndPath(LootBundles.MODID, "blacklist"));
 
     public static TagKey<Item> getItemTag(ResourceLocation resourceLocation) {
         if (!itemTagCache.containsKey(resourceLocation)) {

@@ -1,16 +1,14 @@
 package cy.jdkdigital.lootbundles;
 
 import com.google.common.collect.Lists;
-import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.neoforge.common.ModConfigSpec;
 
 import java.util.List;
 
-@Mod.EventBusSubscriber
 public class LootBundleConfig
 {
-    private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
-    public static final ForgeConfigSpec CONFIG;
+    private static final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
+    public static final ModConfigSpec CONFIG;
     public static final General COMMON = new General(BUILDER);
 
     static {
@@ -19,15 +17,15 @@ public class LootBundleConfig
 
     public static class General
     {
-        public final ForgeConfigSpec.BooleanValue whitelist;
-        public final ForgeConfigSpec.BooleanValue inventoryInsert;
-        public final ForgeConfigSpec.IntValue maxStackSize;
-        public final ForgeConfigSpec.IntValue minLootAmount;
-        public final ForgeConfigSpec.IntValue maxLootAmount;
-        public final ForgeConfigSpec.ConfigValue<List<? extends String>> disallowedItemNames;
-        public final ForgeConfigSpec.BooleanValue allowFakePlayerDrops;
+        public final ModConfigSpec.BooleanValue whitelist;
+        public final ModConfigSpec.BooleanValue inventoryInsert;
+        public final ModConfigSpec.IntValue maxStackSize;
+        public final ModConfigSpec.IntValue minLootAmount;
+        public final ModConfigSpec.IntValue maxLootAmount;
+        public final ModConfigSpec.ConfigValue<List<? extends String>> disallowedItemNames;
+        public final ModConfigSpec.BooleanValue allowFakePlayerDrops;
 
-        public General(ForgeConfigSpec.Builder builder) {
+        public General(ModConfigSpec.Builder builder) {
             builder.push("General");
 
             whitelist = builder

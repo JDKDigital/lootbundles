@@ -1,9 +1,7 @@
 package cy.jdkdigital.lootbundles.loot;
 
 import com.google.common.collect.ImmutableSet;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonSerializationContext;
+import com.mojang.serialization.MapCodec;
 import cy.jdkdigital.lootbundles.LootBundleConfig;
 import cy.jdkdigital.lootbundles.init.ModLootModifiers;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -11,13 +9,14 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParam;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraft.world.level.storage.loot.predicates.LootItemCondition;
 import net.minecraft.world.level.storage.loot.predicates.LootItemConditionType;
-import net.minecraftforge.common.util.FakePlayer;
+import net.neoforged.neoforge.common.util.FakePlayer;
 
 import java.util.Set;
 
 public class LootItemKilledByRealPlayer implements LootItemCondition
 {
     static final LootItemKilledByRealPlayer INSTANCE = new LootItemKilledByRealPlayer();
+    public static final MapCodec<LootItemKilledByRealPlayer> CODEC = MapCodec.unit(INSTANCE);
 
     private LootItemKilledByRealPlayer() {
     }
@@ -42,14 +41,5 @@ public class LootItemKilledByRealPlayer implements LootItemCondition
         return () -> {
             return INSTANCE;
         };
-    }
-
-    public static class Serializer implements net.minecraft.world.level.storage.loot.Serializer<LootItemKilledByRealPlayer> {
-        public void serialize(JsonObject json, LootItemKilledByRealPlayer condition, JsonSerializationContext context) {
-        }
-
-        public LootItemKilledByRealPlayer deserialize(JsonObject json, JsonDeserializationContext context) {
-            return LootItemKilledByRealPlayer.INSTANCE;
-        }
     }
 }

@@ -1,0 +1,199 @@
+[22Jun2024 18:17:51.064] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.0.21-beta, --assetIndex, asset-index, --assetsDir, D:\jais\.gradle\caches\minecraft\assets\1.21, --gameDir, ., --fml.neoForgeVersion, 21.0.21-beta, --fml.fmlVersion, 4.0.6, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
+[22Jun2024 18:17:51.070] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[22Jun2024 18:17:51.073] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.3+main.0f24dec3 starting: java version 21.0.3 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
+[22Jun2024 18:17:51.318] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[22Jun2024 18:17:51.628] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[22Jun2024 18:17:52.070] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[22Jun2024 18:17:52.345] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/jais/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.4+mixin.0.8.5/8adf0cff1795a169141b9e16ad7b9f6e2527a990/sponge-mixin-0.13.4+mixin.0.8.5.jar%23135!/ Service=ModLauncher Env=CLIENT
+[22Jun2024 18:17:52.937] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 537.70, NVIDIA Corporation
+[22Jun2024 18:17:52.980] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.21-beta.jar" [locator: neoforge devenv provider ([D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar])]
+[22Jun2024 18:17:53.028] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.21-beta.jar" [locator: neoforge devenv provider ([D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar])]
+[22Jun2024 18:17:53.052] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[22Jun2024 18:17:53.076] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.21-beta.jar" [locator: userdev mods and services, reader: mod manifest]
+[22Jun2024 18:17:53.091] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-238222-5437447.jar" [locator: userdev mods and services, reader: mod manifest]
+[22Jun2024 18:17:53.161] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.3.5.jar" [locator: userdev mods and services, reader: mod manifest]
+[22Jun2024 18:17:53.538] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras-neoforge-0.3.5.jar. Using Mod File: D:\jais\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[22Jun2024 18:17:53.539] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Jun2024 18:17:53.901] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[22Jun2024 18:17:55.232] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.0.21-beta, --gameDir, ., --assetsDir, D:\jais\.gradle\caches\minecraft\assets\1.21, --assetIndex, asset-index]
+[22Jun2024 18:17:58.164] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 519 milliseconds
+[22Jun2024 18:18:06.962] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jun2024 18:18:06.964] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jun2024 18:18:06.968] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Jun2024 18:18:06.971] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Jun2024 18:18:06.973] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jun2024 18:18:07.196] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/jais/projects/lootbundles-1.19.2/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.21-beta/neoforge-21.0.21-beta.jar%23190!/assets/.mcassetsroot' uses unexpected schema
+[22Jun2024 18:18:07.196] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/jais/projects/lootbundles-1.19.2/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.21-beta/neoforge-21.0.21-beta.jar%23190!/data/.mcassetsroot' uses unexpected schema
+[22Jun2024 18:18:07.241] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22Jun2024 18:18:07.258] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[22Jun2024 18:18:07.435] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[22Jun2024 18:18:07.781] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.0.21-beta, for MC 1.21
+[22Jun2024 18:18:07.920] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[22Jun2024 18:18:07.926] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.305 ms
+[22Jun2024 18:18:09.289] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[22Jun2024 18:18:09.596] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/lootbundles, mod/neoforge, mod/jei
+[22Jun2024 18:18:09.873] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[22Jun2024 18:18:10.268] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[22Jun2024 18:18:12.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jun2024 18:18:12.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jun2024 18:18:13.163] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[22Jun2024 18:18:13.164] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jun2024 18:18:13.449] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[22Jun2024 18:18:13.479] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22Jun2024 18:18:13.480] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22Jun2024 18:18:13.482] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22Jun2024 18:18:13.483] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22Jun2024 18:18:13.493] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22Jun2024 18:18:13.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22Jun2024 18:18:13.495] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22Jun2024 18:18:13.496] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22Jun2024 18:18:13.951] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22Jun2024 18:18:13.954] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22Jun2024 18:18:13.955] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22Jun2024 18:18:13.956] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[22Jun2024 18:18:13.957] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[22Jun2024 18:18:14.003] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22Jun2024 18:18:14.113] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[22Jun2024 18:18:58.620] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/]: Audio device was lost!
+[22Jun2024 18:18:58.621] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jun2024 18:18:58.621] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jun2024 18:18:58.697] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on HP 27 Curved (NVIDIA High Definition Audio)
+[22Jun2024 18:18:58.697] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jun2024 18:18:59.529] [IO-Worker-1/INFO] [net.minecraft.client.sounds.SoundEngine/]: System default audio device has changed!
+[22Jun2024 18:18:59.577] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jun2024 18:18:59.577] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jun2024 18:18:59.624] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on HP 27 Curved (NVIDIA High Definition Audio)
+[22Jun2024 18:18:59.625] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jun2024 18:20:53.686] [IO-Worker-1/INFO] [net.minecraft.client.sounds.SoundEngine/]: System default audio device has changed!
+[22Jun2024 18:20:53.730] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jun2024 18:20:53.731] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jun2024 18:20:53.921] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[22Jun2024 18:20:53.922] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jun2024 18:21:31.306] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1291 recipes
+[22Jun2024 18:21:31.572] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[22Jun2024 18:21:32.558] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent too early, ignoring
+[22Jun2024 18:21:32.722] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21
+[22Jun2024 18:21:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Jun2024 18:21:35.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Jun2024 18:21:35.779] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jun2024 18:21:35.842] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[22Jun2024 18:21:36.045] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 719 ms
+[22Jun2024 18:21:36.047] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[22Jun2024 18:21:36.392] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[22Jun2024 18:21:36.392] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[22Jun2024 18:21:37.531] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent
+[22Jun2024 18:21:37.931] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7aee8e8e] logged in with entity id 135 at (6.368431563892076, 73.0, -2.5829712677525967)
+[22Jun2024 18:21:38.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[22Jun2024 18:21:38.302] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.RecipesUpdatedEvent
+[22Jun2024 18:21:38.303] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from LISTENING to JEI_STARTED
+[22Jun2024 18:21:38.305] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[22Jun2024 18:21:38.321] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[22Jun2024 18:21:38.326] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 4.943 ms
+[22Jun2024 18:21:38.327] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[22Jun2024 18:21:38.331] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 3.265 ms
+[22Jun2024 18:21:38.333] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[22Jun2024 18:21:38.672] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 337.7 milliseconds
+[22Jun2024 18:21:38.673] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 339.2 ms
+[22Jun2024 18:21:38.682] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[22Jun2024 18:21:38.684] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 1.549 ms
+[22Jun2024 18:21:38.738] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[22Jun2024 18:21:38.792] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 53.25 milliseconds
+[22Jun2024 18:21:38.794] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 56.25 ms
+[22Jun2024 18:21:38.796] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[22Jun2024 18:21:38.799] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.890 ms
+[22Jun2024 18:21:38.801] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[22Jun2024 18:21:38.804] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 2.450 ms
+[22Jun2024 18:21:38.806] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[22Jun2024 18:21:38.808] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 1.211 ms
+[22Jun2024 18:21:38.808] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[22Jun2024 18:21:38.823] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 14.73 ms
+[22Jun2024 18:21:38.826] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[22Jun2024 18:21:39.389] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 561.8 milliseconds
+[22Jun2024 18:21:39.390] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 563.0 ms
+[22Jun2024 18:21:39.396] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[22Jun2024 18:21:39.402] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 5.690 ms
+[22Jun2024 18:21:39.428] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[22Jun2024 18:21:39.437] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[22Jun2024 18:21:39.451] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 14.19 ms
+[22Jun2024 18:21:39.457] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[22Jun2024 18:21:39.484] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[22Jun2024 18:21:39.485] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[22Jun2024 18:21:39.494] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 7.939 ms
+[22Jun2024 18:21:39.494] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[22Jun2024 18:21:39.537] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1623 ingredients
+[22Jun2024 18:21:40.338] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1623 ingredients
+[22Jun2024 18:21:40.341] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 847.4 ms
+[22Jun2024 18:21:40.496] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 1.038 seconds
+[22Jun2024 18:21:40.497] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.040 s
+[22Jun2024 18:21:40.498] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 1.070 s
+[22Jun2024 18:21:40.499] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[22Jun2024 18:21:40.501] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 1.395 ms
+[22Jun2024 18:21:40.501] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 2.196 s
+[22Jun2024 18:21:40.542] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 387 advancements
+[22Jun2024 18:21:41.806] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jun2024 18:21:41.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jun2024 18:21:42.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jun2024 18:21:42.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jun2024 18:24:08.694] [Render thread/WARN] [mezz.jei.gui.events.GuiEventHandler/]: GUI did not draw the dark background layer behind itself, this may result in display issues: net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen
+[22Jun2024 18:24:36.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 5 items
+[22Jun2024 18:24:37.952] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:24:39.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:24:40.169] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:24:41.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 5 items
+[22Jun2024 18:24:42.619] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:44.218] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:24:45.418] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:46.538] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:47.652] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:24:48.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:49.788] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:24:50.952] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:24:52.035] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:52.821] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:24:53.552] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 5 items
+[22Jun2024 18:25:00.285] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Incorrect argument for command
+[22Jun2024 18:25:00.286] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...give 5.95 73.00 -0.78 loot minecraft:chests/trial_chambers/reward<--[HERE]
+[22Jun2024 18:25:09.571] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Incorrect argument for command
+[22Jun2024 18:25:09.572] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...give loot minecraft:chests/trial_chambers/reward<--[HERE]
+[22Jun2024 18:25:12.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:25:13.586] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:25:14.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:25:14.719] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:25:15.252] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:15.818] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:16.320] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:16.837] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:25:17.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:25:17.836] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:18.269] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:18.702] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jun2024 18:25:18.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jun2024 18:25:18.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jun2024 18:25:19.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jun2024 18:25:20.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Cover Me with Diamonds]
+[22Jun2024 18:25:20.188] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Cover Me with Diamonds]
+[22Jun2024 18:25:20.236] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 387 advancements
+[22Jun2024 18:25:29.853] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jun2024 18:25:29.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jun2024 18:25:30.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jun2024 18:25:30.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jun2024 18:25:30.818] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[22Jun2024 18:25:30.826] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[22Jun2024 18:25:30.826] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to LISTENING
+[22Jun2024 18:25:30.826] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[22Jun2024 18:25:30.827] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[22Jun2024 18:25:30.827] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[22Jun2024 18:25:30.833] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 6.164 ms
+[22Jun2024 18:25:30.863] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[22Jun2024 18:25:30.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[22Jun2024 18:25:30.936] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[22Jun2024 18:25:30.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Jun2024 18:25:30.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Jun2024 18:25:30.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Jun2024 18:25:33.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jun2024 18:25:34.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jun2024 18:25:34.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jun2024 18:25:34.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[22Jun2024 18:25:34.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Jun2024 18:25:34.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Jun2024 18:25:34.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

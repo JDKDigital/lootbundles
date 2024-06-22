@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "entries": [
+        "lootbundles:entity_loot_fragment",
+        "lootbundles:entity_loot_bundle",
+        "lootbundles:chest_loot_fragment",
+        "lootbundles:trial_chamber_loot_bundle",
+        "lootbundles:trial_chamber_loot_fragment"
+    ]
+}

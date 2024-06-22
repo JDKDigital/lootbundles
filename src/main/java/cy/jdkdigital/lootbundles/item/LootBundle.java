@@ -3,7 +3,6 @@ package cy.jdkdigital.lootbundles.item;
 import cy.jdkdigital.lootbundles.LootBundleConfig;
 import cy.jdkdigital.lootbundles.LootBundles;
 import cy.jdkdigital.lootbundles.init.ModTags;
-import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
@@ -13,12 +12,9 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,7 +45,6 @@ public class LootBundle extends Item
                 int min = LootBundleConfig.COMMON.minLootAmount.get();
                 int max = LootBundleConfig.COMMON.maxLootAmount.get();
                 int count = min <= max ? level.random.nextInt(min, max + 1) : level.random.nextInt(max + 1);
-                LootBundles.LOGGER.info("count " + count);
                 int i = 0;
                 int u = 0;
                 while (i < count && u < 200) {
@@ -60,7 +55,6 @@ public class LootBundle extends Item
                     }
                     u++;
                 }
-                LootBundles.LOGGER.info("items " + items.size());
                 if (dropContents(items, player)) {
                     itemStack.shrink(1);
                     this.playDropContentsSound(player);
@@ -80,14 +74,12 @@ public class LootBundle extends Item
             if (LootBundleConfig.COMMON.whitelist.get()) {
                 BuiltInRegistries.ITEM.getTagOrEmpty(ModTags.WHITELIST).forEach(itemHolder -> {
                     Item item = itemHolder.value();
-                    if (ForgeRegistries.ITEMS.getKey(item) != null) {
-                        if (isItemAllowed(item)) {
-                            possibleItems.add(item);
-                        }
+                    if (isItemAllowed(item)) {
+                        possibleItems.add(item);
                     }
                 });
             } else {
-                ForgeRegistries.ITEMS.getValues().forEach(item -> {
+                BuiltInRegistries.ITEM.forEach(item -> {
                     if (isItemAllowed(item)) {
                         possibleItems.add(item);
                     }
@@ -97,7 +89,9 @@ public class LootBundle extends Item
         if (possibleItems.size() > 0) {
             Item item = possibleItems.get(rand.nextInt(possibleItems.size()));
 
-            return new ItemStack(item, Math.min(item.getMaxStackSize(), rand.nextInt(1, LootBundleConfig.COMMON.maxStackSize.get() + 1)));
+            var stack = new ItemStack(item);
+            stack.setCount(Math.min(item.getMaxStackSize(stack), rand.nextInt(1, LootBundleConfig.COMMON.maxStackSize.get() + 1)));
+            return stack;
         }
         return ItemStack.EMPTY;
     }
@@ -124,7 +118,7 @@ public class LootBundle extends Item
         if (!item.builtInRegistryHolder().is(ModTags.BLACKLIST)) {
             if (!item.builtInRegistryHolder().is(ModTags.WHITELIST) && !LootBundleConfig.COMMON.disallowedItemNames.get().isEmpty()) {
                 for (String s: LootBundleConfig.COMMON.disallowedItemNames.get()) {
-                    if (ForgeRegistries.ITEMS.getKey(item).toString().contains(s)) {
+                    if (BuiltInRegistries.ITEM.getKey(item).toString().contains(s)) {
                         return false;
                     }
                 }

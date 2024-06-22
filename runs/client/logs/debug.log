@@ -1,0 +1,812 @@
+[22Jun2024 18:17:51.064] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.0.21-beta, --assetIndex, asset-index, --assetsDir, D:\jais\.gradle\caches\minecraft\assets\1.21, --gameDir, ., --fml.neoForgeVersion, 21.0.21-beta, --fml.fmlVersion, 4.0.6, --fml.mcVersion, 1.21, --fml.neoFormVersion, 20240613.152323]
+[22Jun2024 18:17:51.070] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.3+9-LTS
+[22Jun2024 18:17:51.073] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.3+main.0f24dec3 starting: java version 21.0.3 by Amazon.com Inc.; OS Windows 10 arch amd64 version 10.0
+[22Jun2024 18:17:51.121] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
+[22Jun2024 18:17:51.168] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[22Jun2024 18:17:51.186] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[22Jun2024 18:17:51.195] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\jais\projects\lootbundles-1.19.2\runs\client
+[22Jun2024 18:17:51.195] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\jais\projects\lootbundles-1.19.2\runs\client\mods
+[22Jun2024 18:17:51.196] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\jais\projects\lootbundles-1.19.2\runs\client\config
+[22Jun2024 18:17:51.196] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\jais\projects\lootbundles-1.19.2\runs\client\config\fml.toml
+[22Jun2024 18:17:51.267] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from D:\jais\projects\lootbundles-1.19.2\runs\client\config\fml.toml
+[22Jun2024 18:17:51.267] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[22Jun2024 18:17:51.268] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[22Jun2024 18:17:51.268] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 8
+[22Jun2024 18:17:51.269] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[22Jun2024 18:17:51.269] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[22Jun2024 18:17:51.269] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[22Jun2024 18:17:51.270] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[22Jun2024 18:17:51.270] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[22Jun2024 18:17:51.270] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[22Jun2024 18:17:51.270] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[22Jun2024 18:17:51.271] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[22Jun2024 18:17:51.271] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[22Jun2024 18:17:51.271] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[22Jun2024 18:17:51.295] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates lootbundles-1.19.2%%D:\jais\projects\lootbundles-1.19.2\build\resources\main;lootbundles-1.19.2%%D:\jais\projects\lootbundles-1.19.2\build\classes\java\main from env
+[22Jun2024 18:17:51.299] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{lootbundles-1.19.2=[D:\jais\projects\lootbundles-1.19.2\build\resources\main, D:\jais\projects\lootbundles-1.19.2\build\classes\java\main]}]
+[22Jun2024 18:17:51.304] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[22Jun2024 18:17:51.318] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[22Jun2024 18:17:51.628] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[22Jun2024 18:17:52.070] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[22Jun2024 18:17:52.205] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,mixin-synthetic-package,fml]
+[22Jun2024 18:17:52.206] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[22Jun2024 18:17:52.207] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[22Jun2024 18:17:52.208] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[22Jun2024 18:17:52.208] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-synthetic-package
+[22Jun2024 18:17:52.208] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-synthetic-package
+[22Jun2024 18:17:52.208] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[22Jun2024 18:17:52.210] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 4.0.6 loading
+[22Jun2024 18:17:52.210] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 11.0.3+main.0f24dec3
+[22Jun2024 18:17:52.212] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[22Jun2024 18:17:52.213] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[22Jun2024 18:17:52.214] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[22Jun2024 18:17:52.214] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[22Jun2024 18:17:52.217] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[22Jun2024 18:17:52.276] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=21.0.21-beta, fmlVersion=4.0.6, mcVersion=1.21, neoFormVersion=20240613.152323]
+[22Jun2024 18:17:52.277] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[22Jun2024 18:17:52.278] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[22Jun2024 18:17:52.323] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@14a2f921
+[22Jun2024 18:17:52.345] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/jais/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.4+mixin.0.8.5/8adf0cff1795a169141b9e16ad7b9f6e2527a990/sponge-mixin-0.13.4+mixin.0.8.5.jar%23135!/ Service=ModLauncher Env=CLIENT
+[22Jun2024 18:17:52.351] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[22Jun2024 18:17:52.352] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Jun2024 18:17:52.353] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Jun2024 18:17:52.355] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Jun2024 18:17:52.356] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Jun2024 18:17:52.356] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[22Jun2024 18:17:52.361] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[22Jun2024 18:17:52.361] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-synthetic-package
+[22Jun2024 18:17:52.361] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-synthetic-package
+[22Jun2024 18:17:52.361] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[22Jun2024 18:17:52.361] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[22Jun2024 18:17:52.362] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is D:\jais\projects\lootbundles-1.19.2\runs\client
+[22Jun2024 18:17:52.363] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is D:\jais\projects\lootbundles-1.19.2\runs\client\mods
+[22Jun2024 18:17:52.363] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is D:\jais\projects\lootbundles-1.19.2\runs\client\config
+[22Jun2024 18:17:52.364] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is D:\jais\projects\lootbundles-1.19.2\runs\client\config\fml.toml
+[22Jun2024 18:17:52.364] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[22Jun2024 18:17:52.369] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from D:\jais\projects\lootbundles-1.19.2\runs\client\config\fml.toml
+[22Jun2024 18:17:52.369] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[22Jun2024 18:17:52.369] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[22Jun2024 18:17:52.369] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 8
+[22Jun2024 18:17:52.369] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[22Jun2024 18:17:52.370] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[22Jun2024 18:17:52.370] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[22Jun2024 18:17:52.370] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[22Jun2024 18:17:52.370] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[22Jun2024 18:17:52.370] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[22Jun2024 18:17:52.370] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[22Jun2024 18:17:52.371] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[22Jun2024 18:17:52.371] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[22Jun2024 18:17:52.371] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[22Jun2024 18:17:52.374] [main/DEBUG] [net.neoforged.fml.loading.LaunchContext/SCAN]: Located paths when launch context was created: [D:\jais\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\2.8\c85270e307e7b822f1086b93689124b89768e273\j2objc-annotations-2.8.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\mergetool\2.0.3\1275202cbbb248f49345cf6787ce299afd9a02fb\mergetool-2.0.3-api.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.1\17125bae1d965624e265ef49552f6465a2bfa307\antlr4-runtime-4.13.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.2.7\24cb95ffb0e3433fd6e844c04e68009e504ca1c0\logging-1.2.7.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\32.1.2-jre\5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318\guava-32.1.2-jre.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\b543467b7ff3c6920539a88ee602d34098628be5\lwjgl-jemalloc-3.3.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\coremods\7.0.3\9147e6f638b4272b3bd5fc8f92ad37802512c6c\coremods-7.0.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarSelector\0.4.1\fb3cc7a58af22ad2880adb98af6d518128c47dae\JarJarSelector-0.4.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\efa1eb78c5ccd840e9f329717109b5e892d72f8e\lwjgl-glfw-3.3.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.97.Final\384ba4d75670befbedb45c4d3b497a93639c206d\netty-codec-4.1.97.Final.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.2.9\73e324f2ee541493a5179abf367237faa782ed21\brigadier-1.2.9.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.18.0\89b684257096f548fa39a7df9fdaa409d4d4df91\error_prone_annotations-2.18.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.26.0\659feffdd12280201c8aacb8f7be94f9a883c824\commons-compress-1.26.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.97.Final\7cceacaf11df8dc63f23d0fb58e9d4640fc88404\netty-common-4.1.97.Final.jar, D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21\client-1.21-client-extra.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.6\6052d7eaa465136cfbc91abaef20a01a4b5ab159\earlydisplay-4.0.6.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.22.1\bea6fede6328fabafd7e68363161a7ea6605abd1\log4j-api-2.22.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\426222fc027602a5f21b9c0fe79cde6a4c7a011f\lwjgl-jemalloc-3.3.3-natives-windows.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10.1\b3add478d4382b78ea20b1671390a858002feb6c\gson-2.10.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.97.Final\cec8348108dc76c47cf87c669d514be52c922144\netty-resolver-4.1.97.Final.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.14.0\1ed471194b02f2c6cb734a0cd6f6f107c673afae\commons-lang3-3.14.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.97.Final\abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36\netty-handler-4.1.97.Final.jar, D:\jais\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.33.0\de2b60b62da487644fc11f734e73c8b0b431238f\checker-qual-3.33.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\32334f3fd5270a59bad9939a93115acb6de36dcf\lwjgl-glfw-3.3.3-natives-windows-x86.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.13.4+mixin.0.8.5\8adf0cff1795a169141b9e16ad7b9f6e2527a990\sponge-mixin-0.13.4+mixin.0.8.5.jar, D:\jais\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.16.0\4e3eb3d79888d76b54e28b350915b5dc3919c9de\commons-codec-1.16.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.4.10\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\oshi-core-6.4.10.jar, D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.97.Final\795da37ded759e862457a82d9d92c4d39ce8ecee\netty-transport-classes-epoll-4.1.97.Final.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\lwjgl-openal-3.3.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.22.1\7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4\log4j-core-2.22.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\65e956d3735a1abdc82eff4baec1b61174697d4b\lwjgl-opengl-3.3.3-natives-windows-arm64.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\lwjgl-freetype-3.3.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\8.0.16\67d4de6d7f95d89bcf5862995fb854ebaec02a34\datafixerupper-8.0.16.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\87b8d5050e3adb46bb58fe1cb2669a4a48fce10d\lwjgl-openal-3.3.3-natives-windows-x86.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.1\9df0ed904cec279eb33ca6df420f6f82706ebb4c\bus-8.0.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\11.0.3\fedefb840696910227753eddc127f3626b5de374\modlauncher-11.0.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.22.1\d7e6693c2606cb7e7335047d7bb96dec52db5665\log4j-slf4j2-impl-2.22.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\2f6b0147078396a58979125a4c947664e98293a\lwjgl-opengl-3.3.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\neoform\1.21-20240613.152323\6293c1a6b9b053ea4e41ac2fe03a3342486d45b1\neoform-1.21-20240613.152323.zip, D:\jais\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\lwjgl-tinyfd-3.3.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.97.Final\f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f\netty-buffer-4.1.97.Final.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.minecraftforge\srgutils\0.4.15\ca408b131759478f164e010fae0d73997e125fb5\srgutils-0.4.15.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\1d9facdf6541de114b0f963be33505b7679c78cb\lwjgl-stb-3.3.3-natives-windows.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\15a8c1de7f51d07a92eae7ce1222557073a0c0c3\lwjgl-freetype-3.3.3-natives-windows-x86.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged.accesstransformers\at-modlauncher\10.0.1\5aba50202aceead086bc09fbc2751c9f05cb4890\at-modlauncher-10.0.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\a6697981b0449a5087c1d546fc08b4f73e8f98c9\lwjgl-tinyfd-3.3.3-natives-windows.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\accesstransformers\10.0.1\fd83b5725f76eae9115e9355fa1c456a6a441400\accesstransformers-10.0.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.6\95c98e459c93892b8a727bbdbd83106271093047\loader-4.0.6.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\9e670718e050aeaeea0c2d5b907cffb142f2e58f\lwjgl-3.3.3-natives-windows-x86.jar, D:\jais\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\25dd6161988d7e65f71d5065c99902402ee32746\lwjgl-stb-3.3.3.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\6.0.54\de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7\authlib-6.0.54.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\73.2\61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9\icu4j-73.2.jar, D:\jais\.gradle\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\jorbis-0.0.17.jar, D:\jais\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.15.1\f11560da189ab563a5c8e351941415430e9304ea\commons-io-2.15.1.jar, D:\jais\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar]
+[22Jun2024 18:17:52.375] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[22Jun2024 18:17:52.376] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeclientuserdev as launch service
+[22Jun2024 18:17:52.377] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist CLIENT
+[22Jun2024 18:17:52.381] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[22Jun2024 18:17:52.381] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[22Jun2024 18:17:52.383] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[22Jun2024 18:17:52.384] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[22Jun2024 18:17:52.384] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin-synthetic-package
+[22Jun2024 18:17:52.523] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin-synthetic-package
+[22Jun2024 18:17:52.523] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[22Jun2024 18:17:52.524] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[22Jun2024 18:17:52.528] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Got mod coordinates lootbundles-1.19.2%%D:\jais\projects\lootbundles-1.19.2\build\resources\main;lootbundles-1.19.2%%D:\jais\projects\lootbundles-1.19.2\build\classes\java\main from env
+[22Jun2024 18:17:52.529] [main/DEBUG] [net.neoforged.fml.loading.targets.CommonLaunchHandler/CORE]: Found supplied mod coordinates [{lootbundles-1.19.2=[D:\jais\projects\lootbundles-1.19.2\build\resources\main, D:\jais\projects\lootbundles-1.19.2\build\classes\java\main]}]
+[22Jun2024 18:17:52.588] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[22Jun2024 18:17:52.589] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.NeoForgeDevProvider from loader-4.0.6.jar
+[22Jun2024 18:17:52.590] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from loader-4.0.6.jar
+[22Jun2024 18:17:52.590] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.MavenDirectoryLocator from loader-4.0.6.jar
+[22Jun2024 18:17:52.591] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.UserdevLocator from loader-4.0.6.jar
+[22Jun2024 18:17:52.594] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[22Jun2024 18:17:52.595] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from loader-4.0.6.jar
+[22Jun2024 18:17:52.595] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from loader-4.0.6.jar
+[22Jun2024 18:17:52.598] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[22Jun2024 18:17:52.599] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from loader-4.0.6.jar
+[22Jun2024 18:17:52.599] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 4 ways to find mods
+[22Jun2024 18:17:52.600] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator neoforge devenv provider ([D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar])
+[22Jun2024 18:17:52.937] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce GTX 1050 Ti/PCIe/SSE2 GL version 4.6.0 NVIDIA 537.70, NVIDIA Corporation
+[22Jun2024 18:17:52.980] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.21-beta.jar with {minecraft} mods - versions {1.21}
+[22Jun2024 18:17:52.980] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.21-beta.jar" [locator: neoforge devenv provider ([D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar])]
+[22Jun2024 18:17:52.997] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar
+[22Jun2024 18:17:52.997] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar
+[22Jun2024 18:17:53.028] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.21-beta.jar with {neoforge} mods - versions {21.0.21-beta}
+[22Jun2024 18:17:53.028] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.21-beta.jar" [locator: neoforge devenv provider ([D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar])]
+[22Jun2024 18:17:53.029] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator neoforge devenv provider ([D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar]) found 2 mods, 0 warnings, 0 errors and skipped 0 candidates
+[22Jun2024 18:17:53.029] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at D:\jais\projects\lootbundles-1.19.2\runs\client\mods}
+[22Jun2024 18:17:53.029] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir D:\jais\projects\lootbundles-1.19.2\runs\client\mods for mods
+[22Jun2024 18:17:53.032] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at D:\jais\projects\lootbundles-1.19.2\runs\client\mods} found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[22Jun2024 18:17:53.032] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator maven libs
+[22Jun2024 18:17:53.038] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[22Jun2024 18:17:53.038] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator maven libs found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[22Jun2024 18:17:53.038] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator userdev mods and services
+[22Jun2024 18:17:53.042] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: D:\jais\projects\lootbundles-1.19.2\build\resources\main
+[22Jun2024 18:17:53.042] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\jais\projects\lootbundles-1.19.2\build\resources\main
+[22Jun2024 18:17:53.052] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {lootbundles} mods - versions {1.21.0-1.0.6}
+[22Jun2024 18:17:53.052] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[22Jun2024 18:17:53.074] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar
+[22Jun2024 18:17:53.074] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar
+[22Jun2024 18:17:53.076] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.21-beta.jar with {neoforge} mods - versions {21.0.21-beta}
+[22Jun2024 18:17:53.076] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.0.21-beta.jar" [locator: userdev mods and services, reader: mod manifest]
+[22Jun2024 18:17:53.087] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: D:\jais\.gradle\caches\modules-2\files-2.1\curse.maven\jei-238222\5437447\a9f5f27160a0567a4193ff6a67888f828b1d9c88\jei-238222-5437447.jar
+[22Jun2024 18:17:53.087] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\jais\.gradle\caches\modules-2\files-2.1\curse.maven\jei-238222\5437447\a9f5f27160a0567a4193ff6a67888f828b1d9c88\jei-238222-5437447.jar
+[22Jun2024 18:17:53.090] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-238222-5437447.jar with {jei} mods - versions {19.0.0.1}
+[22Jun2024 18:17:53.091] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-238222-5437447.jar" [locator: userdev mods and services, reader: mod manifest]
+[22Jun2024 18:17:53.148] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\earlydisplay\4.0.6\6052d7eaa465136cfbc91abaef20a01a4b5ab159\earlydisplay-4.0.6.jar because it was already located earlier
+[22Jun2024 18:17:53.148] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged.fancymodloader\loader\4.0.6\95c98e459c93892b8a727bbdbd83106271093047\loader-4.0.6.jar because it was already located earlier
+[22Jun2024 18:17:53.149] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\coremods\7.0.3\9147e6f638b4272b3bd5fc8f92ad37802512c6c\coremods-7.0.3.jar because it was already located earlier
+[22Jun2024 18:17:53.149] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\11.0.3\fedefb840696910227753eddc127f3626b5de374\modlauncher-11.0.3.jar because it was already located earlier
+[22Jun2024 18:17:53.149] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged.accesstransformers\at-modlauncher\10.0.1\5aba50202aceead086bc09fbc2751c9f05cb4890\at-modlauncher-10.0.1.jar because it was already located earlier
+[22Jun2024 18:17:53.149] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\accesstransformers\10.0.1\fd83b5725f76eae9115e9355fa1c456a6a441400\accesstransformers-10.0.1.jar because it was already located earlier
+[22Jun2024 18:17:53.149] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar because it was already located earlier
+[22Jun2024 18:17:53.149] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\mergetool\2.0.3\1275202cbbb248f49345cf6787ce299afd9a02fb\mergetool-2.0.3-api.jar because it was already located earlier
+[22Jun2024 18:17:53.149] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\bus\8.0.1\9df0ed904cec279eb33ca6df420f6f82706ebb4c\bus-8.0.1.jar because it was already located earlier
+[22Jun2024 18:17:53.149] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar because it was already located earlier
+[22Jun2024 18:17:53.150] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar because it was already located earlier
+[22Jun2024 18:17:53.150] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarSelector\0.4.1\fb3cc7a58af22ad2880adb98af6d518128c47dae\JarJarSelector-0.4.1.jar because it was already located earlier
+[22Jun2024 18:17:53.150] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.neoforged\JarJarMetadata\0.4.1\f8da03683dc81694556dc3e177c5e3bb77ae6fcb\JarJarMetadata-0.4.1.jar because it was already located earlier
+[22Jun2024 18:17:53.150] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar because it was already located earlier
+[22Jun2024 18:17:53.150] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar because it was already located earlier
+[22Jun2024 18:17:53.150] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar because it was already located earlier
+[22Jun2024 18:17:53.150] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.13.4+mixin.0.8.5\8adf0cff1795a169141b9e16ad7b9f6e2527a990\sponge-mixin-0.13.4+mixin.0.8.5.jar because it was already located earlier
+[22Jun2024 18:17:53.150] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\6.0.54\de8bc95660e1b2fe8793fd427a7a10dcec5b3ea7\authlib-6.0.54.jar because it was already located earlier
+[22Jun2024 18:17:53.151] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.26.0\659feffdd12280201c8aacb8f7be94f9a883c824\commons-compress-1.26.0.jar because it was already located earlier
+[22Jun2024 18:17:53.151] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.14.0\1ed471194b02f2c6cb734a0cd6f6f107c673afae\commons-lang3-3.14.0.jar because it was already located earlier
+[22Jun2024 18:17:53.151] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.2.7\24cb95ffb0e3433fd6e844c04e68009e504ca1c0\logging-1.2.7.jar because it was already located earlier
+[22Jun2024 18:17:53.151] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.22.1\d7e6693c2606cb7e7335047d7bb96dec52db5665\log4j-slf4j2-impl-2.22.1.jar because it was already located earlier
+[22Jun2024 18:17:53.151] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.22.1\7183a25510a02ad00cc6a95d3b3d2a7d3c5a8dc4\log4j-core-2.22.1.jar because it was already located earlier
+[22Jun2024 18:17:53.151] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.22.1\bea6fede6328fabafd7e68363161a7ea6605abd1\log4j-api-2.22.1.jar because it was already located earlier
+[22Jun2024 18:17:53.157] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: D:\jais\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[22Jun2024 18:17:53.161] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.3.5.jar" [locator: userdev mods and services, reader: mod manifest]
+[22Jun2024 18:17:53.162] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.4.10\b1d8ab82d11d92fd639b56d639f8f46f739dd5fa\oshi-core-6.4.10.jar because it was already located earlier
+[22Jun2024 18:17:53.162] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\8.0.16\67d4de6d7f95d89bcf5862995fb854ebaec02a34\datafixerupper-8.0.16.jar because it was already located earlier
+[22Jun2024 18:17:53.163] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar because it was already located earlier
+[22Jun2024 18:17:53.163] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\2.0.9\7cf2726fdcfbc8610f9a71fb3ed639871f315340\slf4j-api-2.0.9.jar because it was already located earlier
+[22Jun2024 18:17:53.163] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10.1\b3add478d4382b78ea20b1671390a858002feb6c\gson-2.10.1.jar because it was already located earlier
+[22Jun2024 18:17:53.163] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar because it was already located earlier
+[22Jun2024 18:17:53.164] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\32.1.2-jre\5e64ec7e056456bef3a4bc4c6fdaef71e8ab6318\guava-32.1.2-jre.jar because it was already located earlier
+[22Jun2024 18:17:53.164] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar because it was already located earlier
+[22Jun2024 18:17:53.164] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar because it was already located earlier
+[22Jun2024 18:17:53.164] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar because it was already located earlier
+[22Jun2024 18:17:53.164] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.33.0\de2b60b62da487644fc11f734e73c8b0b431238f\checker-qual-3.33.0.jar because it was already located earlier
+[22Jun2024 18:17:53.165] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.18.0\89b684257096f548fa39a7df9fdaa409d4d4df91\error_prone_annotations-2.18.0.jar because it was already located earlier
+[22Jun2024 18:17:53.165] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\2.8\c85270e307e7b822f1086b93689124b89768e273\j2objc-annotations-2.8.jar because it was already located earlier
+[22Jun2024 18:17:53.165] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.15.1\f11560da189ab563a5c8e351941415430e9304ea\commons-io-2.15.1.jar because it was already located earlier
+[22Jun2024 18:17:53.166] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar because it was already located earlier
+[22Jun2024 18:17:53.166] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.minecraftforge\srgutils\0.4.15\ca408b131759478f164e010fae0d73997e125fb5\srgutils-0.4.15.jar because it was already located earlier
+[22Jun2024 18:17:53.166] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.13.1\17125bae1d965624e265ef49552f6465a2bfa307\antlr4-runtime-4.13.1.jar because it was already located earlier
+[22Jun2024 18:17:53.166] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar because it was already located earlier
+[22Jun2024 18:17:53.166] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar because it was already located earlier
+[22Jun2024 18:17:53.166] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21\client-1.21-client-extra.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\73.2\61ad4ef7f9131fcf6d25c34b817f90d6da06c9e9\icu4j-73.2.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.2.9\73e324f2ee541493a5179abf367237faa782ed21\brigadier-1.2.9.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.16.0\4e3eb3d79888d76b54e28b350915b5dc3919c9de\commons-codec-1.16.0.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar because it was already located earlier
+[22Jun2024 18:17:53.167] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.97.Final\abb86c6906bf512bf2b797a41cd7d2e8d3cd7c36\netty-handler-4.1.97.Final.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.97.Final\384ba4d75670befbedb45c4d3b497a93639c206d\netty-codec-4.1.97.Final.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.97.Final\795da37ded759e862457a82d9d92c4d39ce8ecee\netty-transport-classes-epoll-4.1.97.Final.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.97.Final\d469d84265ab70095b01b40886cabdd433b6e664\netty-transport-native-unix-common-4.1.97.Final.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.97.Final\f37380d23c9bb079bc702910833b2fd532c9abd0\netty-transport-4.1.97.Final.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.97.Final\f8f3d8644afa5e6e1a40a3a6aeb9d9aa970ecb4f\netty-buffer-4.1.97.Final.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.97.Final\cec8348108dc76c47cf87c669d514be52c922144\netty-resolver-4.1.97.Final.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.97.Final\7cceacaf11df8dc63f23d0fb58e9d4640fc88404\netty-common-4.1.97.Final.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.12\c24946d46824bd528054bface3231d2ecb7e95e8\fastutil-8.5.12.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.14.0\28934d48aed814f11e4c584da55c49fa7032b31b\jna-platform-5.14.0.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar because it was already located earlier
+[22Jun2024 18:17:53.168] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.14.0\67bf3eaea4f0718cb376a181a629e5f88fa1c9dd\jna-5.14.0.jar because it was already located earlier
+[22Jun2024 18:17:53.169] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar because it was already located earlier
+[22Jun2024 18:17:53.169] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.jcraft\jorbis\0.0.17\8872d22b293e8f5d7d56ff92be966e6dc28ebdc6\jorbis-0.0.17.jar because it was already located earlier
+[22Jun2024 18:17:53.169] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar because it was already located earlier
+[22Jun2024 18:17:53.169] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\a0db6c84a8becc8ca05f9dbfa985edc348a824c7\lwjgl-freetype-3.3.3.jar because it was already located earlier
+[22Jun2024 18:17:53.183] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-freetype\3.3.3\15a8c1de7f51d07a92eae7ce1222557073a0c0c3\lwjgl-freetype-3.3.3-natives-windows-x86.jar because it was already located earlier
+[22Jun2024 18:17:53.183] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\efa1eb78c5ccd840e9f329717109b5e892d72f8e\lwjgl-glfw-3.3.3.jar because it was already located earlier
+[22Jun2024 18:17:53.196] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.3\32334f3fd5270a59bad9939a93115acb6de36dcf\lwjgl-glfw-3.3.3-natives-windows-x86.jar because it was already located earlier
+[22Jun2024 18:17:53.196] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\b543467b7ff3c6920539a88ee602d34098628be5\lwjgl-jemalloc-3.3.3.jar because it was already located earlier
+[22Jun2024 18:17:53.196] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.3\426222fc027602a5f21b9c0fe79cde6a4c7a011f\lwjgl-jemalloc-3.3.3-natives-windows.jar because it was already located earlier
+[22Jun2024 18:17:53.210] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\daada81ceb5fc0c291fbfdd4433cb8d9423577f2\lwjgl-openal-3.3.3.jar because it was already located earlier
+[22Jun2024 18:17:53.223] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.3\87b8d5050e3adb46bb58fe1cb2669a4a48fce10d\lwjgl-openal-3.3.3-natives-windows-x86.jar because it was already located earlier
+[22Jun2024 18:17:53.223] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\2f6b0147078396a58979125a4c947664e98293a\lwjgl-opengl-3.3.3.jar because it was already located earlier
+[22Jun2024 18:17:53.230] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.3\65e956d3735a1abdc82eff4baec1b61174697d4b\lwjgl-opengl-3.3.3-natives-windows-arm64.jar because it was already located earlier
+[22Jun2024 18:17:53.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\25dd6161988d7e65f71d5065c99902402ee32746\lwjgl-stb-3.3.3.jar because it was already located earlier
+[22Jun2024 18:17:53.237] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.3\1d9facdf6541de114b0f963be33505b7679c78cb\lwjgl-stb-3.3.3-natives-windows.jar because it was already located earlier
+[22Jun2024 18:17:53.254] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\82d755ca94b102e9ca77283b9e2dc46d1b15fbe5\lwjgl-tinyfd-3.3.3.jar because it was already located earlier
+[22Jun2024 18:17:53.255] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.3\a6697981b0449a5087c1d546fc08b4f73e8f98c9\lwjgl-tinyfd-3.3.3-natives-windows.jar because it was already located earlier
+[22Jun2024 18:17:53.267] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\29589b5f87ed335a6c7e7ee6a5775f81f97ecb84\lwjgl-3.3.3.jar because it was already located earlier
+[22Jun2024 18:17:53.288] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.3\9e670718e050aeaeea0c2d5b907cffb142f2e58f\lwjgl-3.3.3-natives-windows-x86.jar because it was already located earlier
+[22Jun2024 18:17:53.288] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.lz4\lz4-java\1.8.0\4b986a99445e49ea5fbf5d149c4b63f6ed6c6780\lz4-java-1.8.0.jar because it was already located earlier
+[22Jun2024 18:17:53.288] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: Skipping D:\jais\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar because it was already located earlier
+[22Jun2024 18:17:53.289] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator userdev mods and services found 4 mods, 0 warnings, 0 errors and skipped 85 candidates
+[22Jun2024 18:17:53.294] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Found 2 mods for first modid neoforge, selecting most recent based on version data
+[22Jun2024 18:17:53.295] [main/DEBUG] [net.neoforged.fml.loading.UniqueModListBuilder/]: Selected file neoforge-21.0.21-beta.jar for modid neoforge with version 21.0.21-beta
+[22Jun2024 18:17:53.301] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 5 mods. Attempting to load dependencies...
+[22Jun2024 18:17:53.302] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator jarinjar
+[22Jun2024 18:17:53.308] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from neoforge-21.0.21-beta.jar, it does not contain dependency information.
+[22Jun2024 18:17:53.308] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[22Jun2024 18:17:53.309] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from main, it does not contain dependency information.
+[22Jun2024 18:17:53.309] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from jei-238222-5437447.jar, it does not contain dependency information.
+[22Jun2024 18:17:53.467] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[22Jun2024 18:17:53.472] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF\jarjar\metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[22Jun2024 18:17:53.535] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[22Jun2024 18:17:53.538] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: mixinextras-neoforge-0.3.5.jar. Using Mod File: D:\jais\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar
+[22Jun2024 18:17:53.539] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Jun2024 18:17:53.541] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.21-beta.jar with {minecraft} mods - versions {1.21}
+[22Jun2024 18:17:53.549] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[22Jun2024 18:17:53.551] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\jais\projects\lootbundles-1.19.2\build\resources\main
+[22Jun2024 18:17:53.554] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file main with {lootbundles} mods - versions {1.21.0-1.0.6}
+[22Jun2024 18:17:53.555] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\jais\projects\lootbundles-1.19.2\build\resources\main with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[22Jun2024 18:17:53.556] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar
+[22Jun2024 18:17:53.557] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.0.21-beta.jar with {neoforge} mods - versions {21.0.21-beta}
+[22Jun2024 18:17:53.557] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[22Jun2024 18:17:53.562] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[22Jun2024 18:17:53.563] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[22Jun2024 18:17:53.563] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[22Jun2024 18:17:53.563] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[22Jun2024 18:17:53.563] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate D:\jais\.gradle\caches\modules-2\files-2.1\curse.maven\jei-238222\5437447\a9f5f27160a0567a4193ff6a67888f828b1d9c88\jei-238222-5437447.jar
+[22Jun2024 18:17:53.565] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-238222-5437447.jar with {jei} mods - versions {19.0.0.1}
+[22Jun2024 18:17:53.566] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\jais\.gradle\caches\modules-2\files-2.1\curse.maven\jei-238222\5437447\a9f5f27160a0567a4193ff6a67888f828b1d9c88\jei-238222-5437447.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[22Jun2024 18:17:53.567] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file D:\jais\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.3.5\ef3ffcf309dae656517b2f120189b1c9b21737dd\mixinextras-neoforge-0.3.5.jar with languages []
+[22Jun2024 18:17:53.568] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 5 mod files with 4 mods
+[22Jun2024 18:17:53.569] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[22Jun2024 18:17:53.582] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 3 implementations of IModLanguageLoader:
+[22Jun2024 18:17:53.582] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from loader-4.0.6.jar
+[22Jun2024 18:17:53.583] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.lowcodemod.LowCodeModLanguageProvider from loader-4.0.6.jar
+[22Jun2024 18:17:53.584] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from loader-4.0.6.jar
+[22Jun2024 18:17:53.585] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 4.0.6
+[22Jun2024 18:17:53.586] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider lowcodefml, version 4.0.6
+[22Jun2024 18:17:53.587] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 4.0.6
+[22Jun2024 18:17:53.598] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[22Jun2024 18:17:53.598] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[22Jun2024 18:17:53.598] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[22Jun2024 18:17:53.602] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 4 mod requirements (4 mandatory, 0 optional)
+[22Jun2024 18:17:53.605] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[22Jun2024 18:17:53.634] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in D:\jais\projects\lootbundles-1.19.2\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.0.21-beta\neoforge-21.0.21-beta.jar
+[22Jun2024 18:17:53.644] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[22Jun2024 18:17:53.869] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[22Jun2024 18:17:53.869] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in D:\jais\.gradle\caches\modules-2\files-2.1\curse.maven\jei-238222\5437447\a9f5f27160a0567a4193ff6a67888f828b1d9c88\jei-238222-5437447.jar
+[22Jun2024 18:17:53.870] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[22Jun2024 18:17:53.876] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[22Jun2024 18:17:53.897] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[22Jun2024 18:17:53.898] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[22Jun2024 18:17:53.900] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[22Jun2024 18:17:53.900] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin-synthetic-package
+[22Jun2024 18:17:53.900] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin-synthetic-package
+[22Jun2024 18:17:53.900] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[22Jun2024 18:17:53.900] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/LOADING]: Loading coremod transformers
+[22Jun2024 18:17:53.901] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [neoforge]
+[22Jun2024 18:17:53.905] [main/DEBUG] [net.neoforged.fml.loading.CoreModScriptLoader/CORE]: Loading coremod scripts
+[22Jun2024 18:17:54.387] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[22Jun2024 18:17:54.636] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[22Jun2024 18:17:54.636] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[22Jun2024 18:17:54.727] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[22Jun2024 18:17:54.727] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[22Jun2024 18:17:54.784] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[22Jun2024 18:17:54.784] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[22Jun2024 18:17:54.883] [main/DEBUG] [net.neoforged.coremod.CoreModScriptingEngine/COREMOD]: CoreMod loaded successfully
+[22Jun2024 18:17:54.899] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of ICoreMod:
+[22Jun2024 18:17:54.901] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@44af588b to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[22Jun2024 18:17:54.903] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@42aae04d to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[22Jun2024 18:17:54.903] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@43bf5397 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[22Jun2024 18:17:54.904] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@575e572f to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[22Jun2024 18:17:54.904] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[22Jun2024 18:17:54.904] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[22Jun2024 18:17:54.904] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[22Jun2024 18:17:54.904] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[22Jun2024 18:17:54.904] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[22Jun2024 18:17:54.904] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[22Jun2024 18:17:54.904] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[22Jun2024 18:17:54.905] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[22Jun2024 18:17:54.906] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[22Jun2024 18:17:54.906] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[22Jun2024 18:17:54.906] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[22Jun2024 18:17:54.906] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@58015e56 to Target : cpw.mods.modlauncher.api.TargetType@625abb97 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[22Jun2024 18:17:54.906] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[22Jun2024 18:17:55.144] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[22Jun2024 18:17:55.144] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[22Jun2024 18:17:55.144] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinsynthetic)
+[22Jun2024 18:17:55.144] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinsynthetic)
+[22Jun2024 18:17:55.145] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinsynthetic)
+[22Jun2024 18:17:55.145] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinsynthetic)
+[22Jun2024 18:17:55.145] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinsynthetic)
+[22Jun2024 18:17:55.145] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[22Jun2024 18:17:55.145] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[22Jun2024 18:17:55.145] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[22Jun2024 18:17:55.145] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[22Jun2024 18:17:55.146] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[22Jun2024 18:17:55.146] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[22Jun2024 18:17:55.146] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[22Jun2024 18:17:55.146] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(lootbundles)
+[22Jun2024 18:17:55.146] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(lootbundles)
+[22Jun2024 18:17:55.146] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(lootbundles)
+[22Jun2024 18:17:55.146] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(lootbundles)
+[22Jun2024 18:17:55.147] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(lootbundles)
+[22Jun2024 18:17:55.147] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(lootbundles)]
+[22Jun2024 18:17:55.147] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(jei)
+[22Jun2024 18:17:55.147] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(jei)
+[22Jun2024 18:17:55.147] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(jei)
+[22Jun2024 18:17:55.148] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(jei)
+[22Jun2024 18:17:55.148] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(jei)
+[22Jun2024 18:17:55.148] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[22Jun2024 18:17:55.148] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[22Jun2024 18:17:55.149] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[22Jun2024 18:17:55.149] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[22Jun2024 18:17:55.149] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[22Jun2024 18:17:55.149] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[22Jun2024 18:17:55.149] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[22Jun2024 18:17:55.150] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json
+[22Jun2024 18:17:55.230] [main/DEBUG] [mixin/]: inject() running with 6 agents
+[22Jun2024 18:17:55.230] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[22Jun2024 18:17:55.231] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[22Jun2024 18:17:55.231] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[22Jun2024 18:17:55.231] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(lootbundles)]
+[22Jun2024 18:17:55.231] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(jei)]
+[22Jun2024 18:17:55.232] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[22Jun2024 18:17:55.232] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.0.21-beta, --gameDir, ., --assetsDir, D:\jais\.gradle\caches\minecraft\assets\1.21, --assetIndex, asset-index]
+[22Jun2024 18:17:55.293] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[22Jun2024 18:17:55.301] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[22Jun2024 18:17:55.302] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[22Jun2024 18:17:55.348] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[22Jun2024 18:17:55.396] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[22Jun2024 18:17:55.398] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[22Jun2024 18:17:55.400] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[22Jun2024 18:17:55.402] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[22Jun2024 18:17:55.403] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[22Jun2024 18:17:55.406] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[22Jun2024 18:17:55.425] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[22Jun2024 18:17:55.431] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.437] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/Overlay @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.445] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/components/Renderable @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.449] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/AbstractTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.451] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.454] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/renderer/texture/SimpleTexture @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.456] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/vertex/VertexConsumer @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.461] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/gui/GuiGraphics @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.486] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft FIELD textureManager to access PUBLIC and LEAVE
+[22Jun2024 18:17:55.487] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.client.Minecraft FIELD pendingConnection to access PUBLIC and LEAVE
+[22Jun2024 18:17:55.488] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: net/minecraft/client/Minecraft @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.519] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Removing Class Annotation: com/mojang/blaze3d/platform/WindowEventHandler @Lnet/neoforged/api/distmarker/OnlyIn;
+[22Jun2024 18:17:55.534] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.util.thread.BlockableEventLoop METHOD submitAsync(Ljava/lang/Runnable;)Ljava/util/concurrent/CompletableFuture; to access PUBLIC and LEAVE
+[22Jun2024 18:17:56.030] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[22Jun2024 18:17:56.035] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[22Jun2024 18:17:56.036] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[22Jun2024 18:17:57.688] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@2629d5dc
+[22Jun2024 18:17:58.164] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 519 milliseconds
+[22Jun2024 18:17:58.655] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@2629d5dc
+[22Jun2024 18:17:59.712] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[22Jun2024 18:17:59.779] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[22Jun2024 18:18:00.962] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[22Jun2024 18:18:01.753] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[22Jun2024 18:18:02.783] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[22Jun2024 18:18:02.784] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[22Jun2024 18:18:02.786] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[22Jun2024 18:18:02.787] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[22Jun2024 18:18:02.787] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[22Jun2024 18:18:02.788] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[22Jun2024 18:18:02.790] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[22Jun2024 18:18:02.792] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[22Jun2024 18:18:02.793] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[22Jun2024 18:18:02.794] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 3735027712 bytes (maybe)
+[22Jun2024 18:18:02.794] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Jais\AppData\Local\Temp (java.io.tmpdir)
+[22Jun2024 18:18:02.795] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[22Jun2024 18:18:02.795] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[22Jun2024 18:18:02.796] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[22Jun2024 18:18:02.797] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[22Jun2024 18:18:02.799] [pool-8-thread-1/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[22Jun2024 18:18:02.800] [pool-8-thread-1/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[22Jun2024 18:18:03.315] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[22Jun2024 18:18:03.390] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[22Jun2024 18:18:03.465] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[22Jun2024 18:18:03.562] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[22Jun2024 18:18:03.725] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[22Jun2024 18:18:03.748] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[22Jun2024 18:18:03.797] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[22Jun2024 18:18:05.313] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[22Jun2024 18:18:05.364] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[22Jun2024 18:18:05.380] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[22Jun2024 18:18:05.392] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[22Jun2024 18:18:05.414] [pool-8-thread-1/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[22Jun2024 18:18:06.002] [pool-8-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Creating vanilla freeze snapshot
+[22Jun2024 18:18:06.044] [pool-8-thread-1/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Vanilla freeze snapshot created
+[22Jun2024 18:18:06.747] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[22Jun2024 18:18:06.885] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/RaidCommand
+[22Jun2024 18:18:06.962] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jun2024 18:18:06.964] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jun2024 18:18:06.968] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Jun2024 18:18:06.971] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Jun2024 18:18:06.973] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Jun2024 18:18:07.196] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/jais/projects/lootbundles-1.19.2/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.21-beta/neoforge-21.0.21-beta.jar%23190!/assets/.mcassetsroot' uses unexpected schema
+[22Jun2024 18:18:07.196] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/jais/projects/lootbundles-1.19.2/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.0.21-beta/neoforge-21.0.21-beta.jar%23190!/data/.mcassetsroot' uses unexpected schema
+[22Jun2024 18:18:07.241] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22Jun2024 18:18:07.258] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[22Jun2024 18:18:07.435] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[22Jun2024 18:18:07.707] [Render thread/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 8 threads for parallel mod-loading
+[22Jun2024 18:18:07.727] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [cy.jdkdigital.lootbundles.LootBundles]
+[22Jun2024 18:18:07.732] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.client.ClientNeoForgeMod]
+[22Jun2024 18:18:07.737] [Render thread/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [mezz.jei.neoforge.JustEnoughItems]
+[22Jun2024 18:18:07.773] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
+[22Jun2024 18:18:07.780] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.0.21-beta
+[22Jun2024 18:18:07.781] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 4.0.6
+[22Jun2024 18:18:07.781] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.0.21-beta, for MC 1.21
+[22Jun2024 18:18:07.782] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file lootbundles-common.toml for lootbundles tracking
+[22Jun2024 18:18:07.783] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for lootbundles
+[22Jun2024 18:18:07.785] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing cy.jdkdigital.lootbundles.LootBundles$EventHandler to MOD
+[22Jun2024 18:18:07.796] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[22Jun2024 18:18:07.797] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[22Jun2024 18:18:07.797] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[22Jun2024 18:18:07.803] [modloading-worker-0/DEBUG] [mezz.jei.common.platform.Services/]: Loaded mezz.jei.neoforge.platform.PlatformHelper@7dbc8225 for service interface mezz.jei.common.platform.IPlatformHelper
+[22Jun2024 18:18:07.861] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[22Jun2024 18:18:07.862] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei\jei-debug.ini
+[22Jun2024 18:18:07.864] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.server.command.ConfigCommand to GAME
+[22Jun2024 18:18:07.865] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Saving config file: D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei\jei-debug.ini
+[22Jun2024 18:18:07.865] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[22Jun2024 18:18:07.876] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei\jei-mod-id-format.ini
+[22Jun2024 18:18:07.878] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Saving config file: D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei\jei-mod-id-format.ini
+[22Jun2024 18:18:07.885] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei\jei-colors.ini
+[22Jun2024 18:18:07.892] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Saving config file: D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei\jei-colors.ini
+[22Jun2024 18:18:07.905] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Loading config file: D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei\jei-client.ini
+[22Jun2024 18:18:07.910] [modloading-worker-0/DEBUG] [mezz.jei.common.config.file.ConfigSerializer/]: Saving config file: D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei\jei-client.ini
+[22Jun2024 18:18:07.911] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[22Jun2024 18:18:07.912] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[22Jun2024 18:18:07.914] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@28382fb3
+[22Jun2024 18:18:07.920] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[22Jun2024 18:18:07.922] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:minecraft...
+[22Jun2024 18:18:07.923] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:neoforge_gui...
+[22Jun2024 18:18:07.923] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:debug...
+[22Jun2024 18:18:07.923] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:gui...
+[22Jun2024 18:18:07.923] [modloading-worker-0/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending ConfigManager: jei:internal...
+[22Jun2024 18:18:07.926] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 3.305 ms
+[22Jun2024 18:18:07.929] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[22Jun2024 18:18:07.929] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[22Jun2024 18:18:07.931] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[22Jun2024 18:18:07.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 16
+[22Jun2024 18:18:07.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 16
+[22Jun2024 18:18:07.934] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[22Jun2024 18:18:07.935] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[22Jun2024 18:18:07.935] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[22Jun2024 18:18:07.935] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[22Jun2024 18:18:07.935] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[22Jun2024 18:18:07.935] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[22Jun2024 18:18:07.935] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[22Jun2024 18:18:07.936] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[22Jun2024 18:18:07.936] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[22Jun2024 18:18:07.936] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[22Jun2024 18:18:07.951] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[22Jun2024 18:18:07.951] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[22Jun2024 18:18:07.952] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[22Jun2024 18:18:07.965] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[22Jun2024 18:18:07.967] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[22Jun2024 18:18:07.970] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.MonsterRoomHooks to GAME
+[22Jun2024 18:18:07.972] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler to MOD
+[22Jun2024 18:18:07.974] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$ColorRegisterHandler to MOD
+[22Jun2024 18:18:07.976] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.model.data.ModelDataManager to GAME
+[22Jun2024 18:18:07.980] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ParticleBoundsDebugRenderer to GAME
+[22Jun2024 18:18:07.987] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.ClientHooks$ClientEvents to MOD
+[22Jun2024 18:18:07.993] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.client.BlockEntityRenderBoundsDebugRenderer to GAME
+[22Jun2024 18:18:07.996] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to GAME
+[22Jun2024 18:18:08.027] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Unfreezing registries
+[22Jun2024 18:18:08.241] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: Freezing registries
+[22Jun2024 18:18:08.297] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.registries.GameData/REGISTRIES]: All registries frozen
+[22Jun2024 18:18:09.289] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[22Jun2024 18:18:09.596] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/lootbundles, mod/neoforge, mod/jei
+[22Jun2024 18:18:09.769] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type CLIENT
+[22Jun2024 18:18:09.774] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-client.toml
+[22Jun2024 18:18:09.775] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-client.toml
+[22Jun2024 18:18:09.803] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-client.toml for changes
+[22Jun2024 18:18:09.812] [Render thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-client.toml
+[22Jun2024 18:18:09.814] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[22Jun2024 18:18:09.814] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for D:\jais\projects\lootbundles-1.19.2\runs\client\config\lootbundles-common.toml
+[22Jun2024 18:18:09.815] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\lootbundles-common.toml
+[22Jun2024 18:18:09.816] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\lootbundles-common.toml for changes
+[22Jun2024 18:18:09.816] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-client.toml changed, sending notifies
+[22Jun2024 18:18:09.817] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[22Jun2024 18:18:09.818] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-common.toml
+[22Jun2024 18:18:09.818] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file neoforge-client.toml changed, sending notifies
+[22Jun2024 18:18:09.819] [Thread-4/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: NeoForge config just got changed on the file system!
+[22Jun2024 18:18:09.819] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-common.toml
+[22Jun2024 18:18:09.821] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file lootbundles-common.toml changed, sending notifies
+[22Jun2024 18:18:09.820] [Render thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-common.toml for changes
+[22Jun2024 18:18:09.823] [Render thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[22Jun2024 18:18:09.873] [Worker-Main-2/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[22Jun2024 18:18:10.200] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[22Jun2024 18:18:10.202] [Render thread/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.581 ms
+[22Jun2024 18:18:10.268] [Worker-Main-7/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[22Jun2024 18:18:12.856] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jun2024 18:18:12.858] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jun2024 18:18:13.163] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[22Jun2024 18:18:13.164] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jun2024 18:18:13.449] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[22Jun2024 18:18:13.479] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22Jun2024 18:18:13.480] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22Jun2024 18:18:13.482] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22Jun2024 18:18:13.483] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22Jun2024 18:18:13.493] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22Jun2024 18:18:13.494] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22Jun2024 18:18:13.495] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22Jun2024 18:18:13.496] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22Jun2024 18:18:13.951] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22Jun2024 18:18:13.954] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22Jun2024 18:18:13.955] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22Jun2024 18:18:13.956] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[22Jun2024 18:18:13.957] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[22Jun2024 18:18:14.003] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22Jun2024 18:18:14.113] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[22Jun2024 18:18:58.620] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/]: Audio device was lost!
+[22Jun2024 18:18:58.621] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jun2024 18:18:58.621] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jun2024 18:18:58.697] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on HP 27 Curved (NVIDIA High Definition Audio)
+[22Jun2024 18:18:58.697] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jun2024 18:18:59.529] [IO-Worker-1/INFO] [net.minecraft.client.sounds.SoundEngine/]: System default audio device has changed!
+[22Jun2024 18:18:59.577] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jun2024 18:18:59.577] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jun2024 18:18:59.624] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on HP 27 Curved (NVIDIA High Definition Audio)
+[22Jun2024 18:18:59.625] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jun2024 18:20:53.686] [IO-Worker-1/INFO] [net.minecraft.client.sounds.SoundEngine/]: System default audio device has changed!
+[22Jun2024 18:20:53.730] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22Jun2024 18:20:53.731] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22Jun2024 18:20:53.921] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek High Definition Audio)
+[22Jun2024 18:20:53.922] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22Jun2024 18:21:31.306] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1291 recipes
+[22Jun2024 18:21:31.572] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[22Jun2024 18:21:32.558] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent too early, ignoring
+[22Jun2024 18:21:32.633] [Render thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[22Jun2024 18:21:32.722] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21
+[22Jun2024 18:21:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Jun2024 18:21:32.843] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[22Jun2024 18:21:32.843] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei-server.toml
+[22Jun2024 18:21:32.844] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei-server.toml
+[22Jun2024 18:21:32.845] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\jei-server.toml for changes
+[22Jun2024 18:21:32.847] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file jei-server.toml changed, sending notifies
+[22Jun2024 18:21:32.848] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-server.toml
+[22Jun2024 18:21:32.849] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-server.toml
+[22Jun2024 18:21:32.850] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file D:\jais\projects\lootbundles-1.19.2\runs\client\config\neoforge-server.toml for changes
+[22Jun2024 18:21:32.850] [Thread-4/DEBUG] [net.neoforged.fml.config.ConfigFileTypeHandler/CONFIG]: Config file jei-server.toml changed, sending notifies
+[22Jun2024 18:21:32.850] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[22Jun2024 18:21:32.901] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[22Jun2024 18:21:32.951] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[22Jun2024 18:21:32.979] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[22Jun2024 18:21:32.994] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[22Jun2024 18:21:35.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Jun2024 18:21:35.779] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Jun2024 18:21:35.842] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[22Jun2024 18:21:36.045] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 719 ms
+[22Jun2024 18:21:36.047] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[22Jun2024 18:21:36.251] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[22Jun2024 18:21:36.392] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[22Jun2024 18:21:36.392] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[22Jun2024 18:21:36.427] [Render thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 16
+[22Jun2024 18:21:36.445] [Render thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[22Jun2024 18:21:36.467] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[22Jun2024 18:21:36.467] [Render thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[22Jun2024 18:21:36.482] [Render thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[22Jun2024 18:21:36.552] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 19376 (auto-detected)
+[22Jun2024 18:21:36.555] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[22Jun2024 18:21:36.555] [Render thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: system
+[22Jun2024 18:21:36.561] [Render thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[22Jun2024 18:21:36.565] [Render thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[22Jun2024 18:21:36.567] [Render thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: f4:39:09:ff:fe:49:97:a1 (auto-detected)
+[22Jun2024 18:21:36.697] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[22Jun2024 18:21:36.698] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[22Jun2024 18:21:36.698] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[22Jun2024 18:21:36.698] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[22Jun2024 18:21:36.698] [Render thread/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[22Jun2024 18:21:37.119] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@7359e7a3 into net.minecraft.network.Connection@684bbf2b
+[22Jun2024 18:21:37.128] [Netty Local Client IO #0/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@6ca12599 into net.minecraft.network.Connection@5454c6ec
+[22Jun2024 18:21:37.531] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.event.TagsUpdatedEvent
+[22Jun2024 18:21:37.763] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@571e4a5c into net.minecraft.network.Connection@684bbf2b
+[22Jun2024 18:21:37.931] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7aee8e8e] logged in with entity id 135 at (6.368431563892076, 73.0, -2.5829712677525967)
+[22Jun2024 18:21:38.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[22Jun2024 18:21:38.302] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.RecipesUpdatedEvent
+[22Jun2024 18:21:38.303] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from LISTENING to JEI_STARTED
+[22Jun2024 18:21:38.305] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[22Jun2024 18:21:38.321] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[22Jun2024 18:21:38.321] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:minecraft...
+[22Jun2024 18:21:38.325] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:neoforge_gui...
+[22Jun2024 18:21:38.326] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:debug...
+[22Jun2024 18:21:38.326] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:gui...
+[22Jun2024 18:21:38.326] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering item subtypes: jei:internal...
+[22Jun2024 18:21:38.326] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 4.943 ms
+[22Jun2024 18:21:38.327] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[22Jun2024 18:21:38.328] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:minecraft...
+[22Jun2024 18:21:38.328] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:neoforge_gui...
+[22Jun2024 18:21:38.328] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:debug...
+[22Jun2024 18:21:38.330] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:gui...
+[22Jun2024 18:21:38.330] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering fluid subtypes: jei:internal...
+[22Jun2024 18:21:38.331] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 3.265 ms
+[22Jun2024 18:21:38.333] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[22Jun2024 18:21:38.334] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft...
+[22Jun2024 18:21:38.468] [Render thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[22Jun2024 18:21:38.672] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 337.7 milliseconds
+[22Jun2024 18:21:38.672] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:neoforge_gui...
+[22Jun2024 18:21:38.672] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:debug...
+[22Jun2024 18:21:38.673] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:gui...
+[22Jun2024 18:21:38.673] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:internal...
+[22Jun2024 18:21:38.673] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 339.2 ms
+[22Jun2024 18:21:38.682] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info...
+[22Jun2024 18:21:38.683] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:minecraft...
+[22Jun2024 18:21:38.683] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:neoforge_gui...
+[22Jun2024 18:21:38.684] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:debug...
+[22Jun2024 18:21:38.684] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:gui...
+[22Jun2024 18:21:38.684] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Mod Info: jei:internal...
+[22Jun2024 18:21:38.684] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Mod Info took 1.549 ms
+[22Jun2024 18:21:38.738] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[22Jun2024 18:21:38.738] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft...
+[22Jun2024 18:21:38.792] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 53.25 milliseconds
+[22Jun2024 18:21:38.792] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:neoforge_gui...
+[22Jun2024 18:21:38.792] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:debug...
+[22Jun2024 18:21:38.793] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:gui...
+[22Jun2024 18:21:38.793] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:internal...
+[22Jun2024 18:21:38.794] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 56.25 ms
+[22Jun2024 18:21:38.796] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[22Jun2024 18:21:38.796] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:minecraft...
+[22Jun2024 18:21:38.798] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:neoforge_gui...
+[22Jun2024 18:21:38.798] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:debug...
+[22Jun2024 18:21:38.799] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:gui...
+[22Jun2024 18:21:38.799] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering vanilla category extensions: jei:internal...
+[22Jun2024 18:21:38.799] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.890 ms
+[22Jun2024 18:21:38.801] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[22Jun2024 18:21:38.802] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:minecraft...
+[22Jun2024 18:21:38.803] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:neoforge_gui...
+[22Jun2024 18:21:38.803] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:debug...
+[22Jun2024 18:21:38.803] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:gui...
+[22Jun2024 18:21:38.804] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipe catalysts: jei:internal...
+[22Jun2024 18:21:38.804] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 2.450 ms
+[22Jun2024 18:21:38.806] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[22Jun2024 18:21:38.807] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:minecraft...
+[22Jun2024 18:21:38.807] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:neoforge_gui...
+[22Jun2024 18:21:38.807] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:debug...
+[22Jun2024 18:21:38.808] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:gui...
+[22Jun2024 18:21:38.808] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering advanced plugins: jei:internal...
+[22Jun2024 18:21:38.808] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 1.211 ms
+[22Jun2024 18:21:38.808] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[22Jun2024 18:21:38.823] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 14.73 ms
+[22Jun2024 18:21:38.826] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[22Jun2024 18:21:38.827] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft...
+[22Jun2024 18:21:38.862] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:crafting
+[22Jun2024 18:21:39.005] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:crafting
+[22Jun2024 18:21:39.020] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:stonecutting
+[22Jun2024 18:21:39.032] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:smelting
+[22Jun2024 18:21:39.036] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:smoking
+[22Jun2024 18:21:39.037] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:blasting
+[22Jun2024 18:21:39.038] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:campfire_cooking
+[22Jun2024 18:21:39.047] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:fuel
+[22Jun2024 18:21:39.079] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:anvil
+[22Jun2024 18:21:39.164] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:smithing
+[22Jun2024 18:21:39.224] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:compostable
+[22Jun2024 18:21:39.363] [Render thread/DEBUG] [mezz.jei.library.recipes.RecipeManagerInternal/]: Adding recipes: minecraft:brewing
+[22Jun2024 18:21:39.389] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 561.8 milliseconds
+[22Jun2024 18:21:39.389] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:neoforge_gui...
+[22Jun2024 18:21:39.389] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:debug...
+[22Jun2024 18:21:39.389] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:gui...
+[22Jun2024 18:21:39.389] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:internal...
+[22Jun2024 18:21:39.390] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 563.0 ms
+[22Jun2024 18:21:39.396] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[22Jun2024 18:21:39.397] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:minecraft...
+[22Jun2024 18:21:39.402] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:neoforge_gui...
+[22Jun2024 18:21:39.402] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:debug...
+[22Jun2024 18:21:39.402] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:gui...
+[22Jun2024 18:21:39.402] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes transfer handlers: jei:internal...
+[22Jun2024 18:21:39.402] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 5.690 ms
+[22Jun2024 18:21:39.428] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[22Jun2024 18:21:39.437] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[22Jun2024 18:21:39.437] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:minecraft...
+[22Jun2024 18:21:39.441] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:neoforge_gui...
+[22Jun2024 18:21:39.441] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:debug...
+[22Jun2024 18:21:39.441] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:gui...
+[22Jun2024 18:21:39.451] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering gui handlers: jei:internal...
+[22Jun2024 18:21:39.451] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 14.19 ms
+[22Jun2024 18:21:39.457] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[22Jun2024 18:21:39.458] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:minecraft...
+[22Jun2024 18:21:39.458] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui...
+[22Jun2024 18:21:39.484] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[22Jun2024 18:21:39.485] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[22Jun2024 18:21:39.487] [Render thread/DEBUG] [mezz.jei.gui.ingredients.IngredientListElementFactory/]: Registering ingredients: ItemStack
+[22Jun2024 18:21:39.493] [Render thread/DEBUG] [mezz.jei.gui.ingredients.IngredientListElementFactory/]: Registering ingredients: FluidStack
+[22Jun2024 18:21:39.494] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 7.939 ms
+[22Jun2024 18:21:39.494] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[22Jun2024 18:21:39.537] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 1623 ingredients
+[22Jun2024 18:21:40.338] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 1623 ingredients
+[22Jun2024 18:21:40.341] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 847.4 ms
+[22Jun2024 18:21:40.496] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:neoforge_gui took 1.038 seconds
+[22Jun2024 18:21:40.496] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:debug...
+[22Jun2024 18:21:40.496] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:gui...
+[22Jun2024 18:21:40.497] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:internal...
+[22Jun2024 18:21:40.497] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.040 s
+[22Jun2024 18:21:40.498] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 1.070 s
+[22Jun2024 18:21:40.499] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[22Jun2024 18:21:40.500] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:minecraft...
+[22Jun2024 18:21:40.500] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:neoforge_gui...
+[22Jun2024 18:21:40.500] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:debug...
+[22Jun2024 18:21:40.500] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:gui...
+[22Jun2024 18:21:40.500] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime: jei:internal...
+[22Jun2024 18:21:40.501] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 1.395 ms
+[22Jun2024 18:21:40.501] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 2.196 s
+[22Jun2024 18:21:40.542] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 387 advancements
+[22Jun2024 18:21:41.806] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jun2024 18:21:41.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jun2024 18:21:42.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jun2024 18:21:42.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jun2024 18:21:42.493] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[22Jun2024 18:21:42.963] [Server thread/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[22Jun2024 18:24:08.694] [Render thread/WARN] [mezz.jei.gui.events.GuiEventHandler/]: GUI did not draw the dark background layer behind itself, this may result in display issues: net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen
+[22Jun2024 18:24:36.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 5 items
+[22Jun2024 18:24:37.952] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:24:39.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:24:40.169] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:24:41.469] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 5 items
+[22Jun2024 18:24:42.619] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:44.218] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:24:45.418] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:46.538] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:47.652] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:24:48.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:49.788] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:24:50.952] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:24:52.035] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:24:52.821] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:24:53.552] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 5 items
+[22Jun2024 18:25:00.285] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Incorrect argument for command
+[22Jun2024 18:25:00.286] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...give 5.95 73.00 -0.78 loot minecraft:chests/trial_chambers/reward<--[HERE]
+[22Jun2024 18:25:09.571] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Incorrect argument for command
+[22Jun2024 18:25:09.572] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ...give loot minecraft:chests/trial_chambers/reward<--[HERE]
+[22Jun2024 18:25:12.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:25:13.586] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:25:14.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:25:14.719] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:25:15.252] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:15.818] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:16.320] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:16.837] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 2 items
+[22Jun2024 18:25:17.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 3 items
+[22Jun2024 18:25:17.836] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:18.269] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dropped 4 items
+[22Jun2024 18:25:18.702] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jun2024 18:25:18.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jun2024 18:25:18.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jun2024 18:25:19.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jun2024 18:25:19.384] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[22Jun2024 18:25:20.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Cover Me with Diamonds]
+[22Jun2024 18:25:20.188] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Cover Me with Diamonds]
+[22Jun2024 18:25:20.236] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 387 advancements
+[22Jun2024 18:25:29.853] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22Jun2024 18:25:29.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jun2024 18:25:30.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jun2024 18:25:30.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jun2024 18:25:30.525] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[22Jun2024 18:25:30.818] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[22Jun2024 18:25:30.826] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver received class net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[22Jun2024 18:25:30.826] [Render thread/INFO] [mezz.jei.neoforge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to LISTENING
+[22Jun2024 18:25:30.826] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[22Jun2024 18:25:30.827] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[22Jun2024 18:25:30.827] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:minecraft...
+[22Jun2024 18:25:30.827] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:neoforge_gui...
+[22Jun2024 18:25:30.827] [Render thread/INFO] [mezz.jei.neoforge.plugins.neoforge.NeoForgeGuiPlugin/]: Stopping JEI GUI
+[22Jun2024 18:25:30.832] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:debug...
+[22Jun2024 18:25:30.832] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:gui...
+[22Jun2024 18:25:30.833] [Render thread/DEBUG] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:internal...
+[22Jun2024 18:25:30.833] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 6.164 ms
+[22Jun2024 18:25:30.863] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[22Jun2024 18:25:30.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[22Jun2024 18:25:30.936] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[22Jun2024 18:25:30.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Jun2024 18:25:30.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Jun2024 18:25:30.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Jun2024 18:25:33.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22Jun2024 18:25:34.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22Jun2024 18:25:34.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22Jun2024 18:25:34.394] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[22Jun2024 18:25:34.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[22Jun2024 18:25:34.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Jun2024 18:25:34.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Jun2024 18:25:34.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Jun2024 18:25:34.998] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER

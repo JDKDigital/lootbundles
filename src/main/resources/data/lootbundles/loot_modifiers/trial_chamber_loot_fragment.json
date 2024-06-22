@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/trial_chambers/reward_common"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/trial_chambers/intersection_barrel"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:chests/trial_chambers/intersection"
+        }
+      ]
+    }
+  ],
+  "type": "lootbundles:loot_fragment",
+  "probability": 0.6,
+  "maxCount": 5
+}
