@@ -72,6 +72,7 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    implementation fg.deobf("curse.maven:jei-238222:4712868")
 }
 
 def resourceTargets = ['META-INF/mods.toml', 'pack.mcmeta']

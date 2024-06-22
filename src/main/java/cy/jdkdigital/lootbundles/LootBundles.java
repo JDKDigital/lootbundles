@@ -26,6 +26,7 @@ public class LootBundles
 
         ModItems.ITEMS.register(modEventBus);
         ModLootModifiers.LOOT_SERIALIZERS.register(modEventBus);
+        ModLootModifiers.LOOT_CONDITIONS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

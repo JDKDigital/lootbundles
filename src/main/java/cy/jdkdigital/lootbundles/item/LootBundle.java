@@ -1,6 +1,7 @@
 package cy.jdkdigital.lootbundles.item;
 
 import cy.jdkdigital.lootbundles.LootBundleConfig;
+import cy.jdkdigital.lootbundles.LootBundles;
 import cy.jdkdigital.lootbundles.init.ModTags;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -15,6 +16,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.registries.ForgeRegistries;
 
@@ -47,6 +49,7 @@ public class LootBundle extends Item
                 int min = LootBundleConfig.COMMON.minLootAmount.get();
                 int max = LootBundleConfig.COMMON.maxLootAmount.get();
                 int count = min <= max ? level.random.nextInt(min, max + 1) : level.random.nextInt(max + 1);
+                LootBundles.LOGGER.info("count " + count);
                 int i = 0;
                 int u = 0;
                 while (i < count && u < 200) {
@@ -57,7 +60,7 @@ public class LootBundle extends Item
                     }
                     u++;
                 }
-
+                LootBundles.LOGGER.info("items " + items.size());
                 if (dropContents(items, player)) {
                     itemStack.shrink(1);
                     this.playDropContentsSound(player);

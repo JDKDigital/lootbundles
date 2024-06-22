@@ -1,7 +1,7 @@
 {
   "conditions": [
     {
-      "condition": "minecraft:killed_by_player"
+      "condition": "lootbundles:killed_by_real_player"
     },
     {
       "condition": "minecraft:any_of",

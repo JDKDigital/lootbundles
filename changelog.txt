@@ -1,3 +1,9 @@
+1.20.1-0.1.0.6
+
+- Disable loot bundles and fragment drops from entities killed by fake player
+- Blacklisted end portal frames
+
+
 1.20.0-0.1.0.5
 
 - Port to 1.20

@@ -25,6 +25,7 @@ public class LootBundleConfig
         public final ForgeConfigSpec.IntValue minLootAmount;
         public final ForgeConfigSpec.IntValue maxLootAmount;
         public final ForgeConfigSpec.ConfigValue<List<? extends String>> disallowedItemNames;
+        public final ForgeConfigSpec.BooleanValue allowFakePlayerDrops;
 
         public General(ForgeConfigSpec.Builder builder) {
             builder.push("General");
@@ -52,6 +53,10 @@ public class LootBundleConfig
             disallowedItemNames = builder
                     .comment("List of strings that an item name must not contain in order for it to be considered a valid loot item. Item name can be partial and can contain the mod id as well to disallow an entire mods items.")
                     .define("disallowedItemNames", Lists.newArrayList("creative", "spawn_egg"));
+
+            allowFakePlayerDrops = builder
+                    .comment("Allow drops from fake players")
+                    .define("whitelist", false);
 
             builder.pop();
         }
