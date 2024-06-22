@@ -1,9 +1,0 @@
-/gamemode survival
-/kill @e
-/gamemode creative
-/enchant Dev minecraft:sharpness 5
-/loot give Dev loot minecraft:chests/trial_chambers/reward
-/loot spawn 5.95 73.00 -0.78 loot minecraft:chests/trial_chambers/reward
-/loot give 5.95 73.00 -0.78 loot minecraft:chests/trial_chambers/reward
-/loot give loot minecraft:chests/trial_chambers/reward
-/loot spawn 5.95 73.00 -0.78 loot minecraft:chests/trial_chambers/reward
