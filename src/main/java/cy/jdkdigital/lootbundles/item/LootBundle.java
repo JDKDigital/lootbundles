@@ -3,6 +3,7 @@ package cy.jdkdigital.lootbundles.item;
 import cy.jdkdigital.lootbundles.LootBundleConfig;
 import cy.jdkdigital.lootbundles.LootBundles;
 import cy.jdkdigital.lootbundles.init.ModTags;
+import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
@@ -18,6 +19,7 @@ import net.minecraft.world.level.Level;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class LootBundle extends Item
 {
@@ -73,16 +75,11 @@ public class LootBundle extends Item
         if (possibleItems.isEmpty()) {
             if (LootBundleConfig.COMMON.whitelist.get()) {
                 BuiltInRegistries.ITEM.getTagOrEmpty(ModTags.WHITELIST).forEach(itemHolder -> {
-                    Item item = itemHolder.value();
-                    if (isItemAllowed(item)) {
-                        possibleItems.add(item);
-                    }
+                    addIfAllowed(possibleItems, itemHolder);
                 });
             } else {
-                BuiltInRegistries.ITEM.forEach(item -> {
-                    if (isItemAllowed(item)) {
-                        possibleItems.add(item);
-                    }
+                BuiltInRegistries.ITEM.holders().forEach(itemHolder -> {
+                    addIfAllowed(possibleItems, itemHolder);
                 });
             }
         }
@@ -94,6 +91,15 @@ public class LootBundle extends Item
             return stack;
         }
         return ItemStack.EMPTY;
+    }
+
+    private static void addIfAllowed(List<Item> possibleItems, Holder<Item> itemHolder) {
+        Item item = itemHolder.value();
+        if (isItemAllowed(item)) {
+            var weightData = itemHolder.getData(LootBundles.LOOT_WEIGHT_DATA);
+            int weight = weightData != null ? weightData.weight() : 1;
+            IntStream.range(0, weight).forEach(i -> possibleItems.add(item));
+        }
     }
 
     private static boolean dropContents(List<ItemStack> stacks, Player player) {

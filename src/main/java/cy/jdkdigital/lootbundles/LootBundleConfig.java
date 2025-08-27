@@ -54,7 +54,7 @@ public class LootBundleConfig
 
             allowFakePlayerDrops = builder
                     .comment("Allow drops from fake players")
-                    .define("whitelist", false);
+                    .define("allowFakePlayerDrops", false);
 
             builder.pop();
         }
